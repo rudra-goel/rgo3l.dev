@@ -1,0 +1,14 @@
+{
+  "name": "rgo3l.dev",
+  "version": "1.0.0",
+  "description": "Webiste Portfolio made using React.js and Google Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudra Goel",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.5.2"
+  }
+}
