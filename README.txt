@@ -6,3 +6,5 @@ This project is a website protfolio meant to catalog academic and extracurricula
 resume 
 
 It is made using React.js and Google Firebase. 
+
+Git & Githib as Version Control Software 
