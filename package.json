@@ -9,6 +9,7 @@
   "author": "Rudra Goel",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^10.5.2"
+    "firebase": "^10.5.2",
+    "nodemailer": "^6.9.7"
   }
 }
