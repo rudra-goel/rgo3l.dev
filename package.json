@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Webiste Portfolio made using React.js and Google Firebase",
   "main": "index.js",
+  "proxy": "http://localhost:3000",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,4 +13,5 @@
     "firebase": "^10.5.2",
     "nodemailer": "^6.9.7"
   }
+
 }

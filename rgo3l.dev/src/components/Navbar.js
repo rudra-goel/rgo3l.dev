@@ -5,11 +5,6 @@ export default function Navbar() {
 
   const [hamburgerIconState, setHamburgerIconState] = useState(false)
   const [menuLinksState, setMenuLinksState] = useState(false)
-  let page = window.location.href;
-  page = page.split("/")
-  page = page[page.length-1]
-
-
   
   const mobileNav = () => {
     setHamburgerIconState(!hamburgerIconState)

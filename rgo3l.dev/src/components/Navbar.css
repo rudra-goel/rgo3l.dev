@@ -81,7 +81,7 @@
   background: var(--white);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1052px) {
   .nav-container{
     position: relative;
   }
