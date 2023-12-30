@@ -8,8 +8,11 @@
 
 
 .static-name {
+    display: grid;
     font-family: 'Roboto Mono', sans-serif;
-    margin: 7rem 4rem 0 4rem;
+    margin: 0 4rem 0 4rem;
+    align-self: center;
+    
 }
 
 .name {
@@ -40,7 +43,8 @@
     margin-top:2rem;
     display: grid;
     grid-template-rows: auto auto auto;
-    gap:1rem
+    gap:1rem;
+    bottom: 30px;
 }
 .socials-container {
     display: grid;
@@ -56,7 +60,56 @@ a {
 .dynamic-content {
     overflow-y: auto;
     font-family: 'Roboto Mono', sans-serif;
+    display: grid;
+    grid-template-rows: repeat(auto, 5);
+    padding: 3em 0 0 0
 }
+
+.about-me {
+    height: 100vh;
+   display: grid;
+   grid-template-rows: auto auto;
+   
+}
+.full-bio {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.bio {
+    font-family: "Roboto Mono" sans-serif;
+    font-size: 1rem;
+}
+
+.pfp {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;;
+    align-self: center;
+
+}
+.opfp {
+    width: 250px;
+    height: auto;
+    border-radius: 10%;;
+    align-self: center;
+
+}
+.bio-with-pfp {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px
+}
+.other-pics{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 0 0 4em 0;
+    justify-items: center;
+}
+
+
 
 /* when the page is on a massive screen */
 @media screen and (min-width:1024px){
