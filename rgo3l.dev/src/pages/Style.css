@@ -133,20 +133,83 @@ a:hover {
     transition: width .3s;
 }
 
-.experience {
+
+.link-out-arrow {
+    width: 20px;
+    height: auto;
+    transition: width .3s;
+}
+
+.experience-link:hover {
+    .link-out-arrow{
+        width: 25px;
+        height: auto;
+        transition: width .3s;
+    }
+    .link {
+        font-weight: bold;
+    }
+}
+
+/* Experience Styling */
+
+.experience-container {
     height: 100vh;
 
 }
 .experience-header {
     margin: 1em
 }
+.experience {
+    display: grid;
+    gap: 25px;
+    justify-items: center;
+}
 
 .one-experience {
-    background-color: red;
+    background-color: gray;
     min-height: 20vh;
     padding: 1em;
+    width: 90%;
+
+    display: grid;
+    gap: 10px
+}
+
+.position {
+    justify-self: center;
+}
+.position-information {
+    justify-self: center;
+}
+.skills-developed {
+    gap: 50px;
+}
+.skill {
+    margin: 0 1em 0 1em;
+    padding: .5em;
+    background-color: aqua;
+    border-radius: 2cap;
+}
+
+.experience-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
     
 }
+.experience-link {
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+    justify-self: end;
+    align-items: center;
+}
+
+
+
+
+
 
 .project-portfolio {
     height: 100vh;
