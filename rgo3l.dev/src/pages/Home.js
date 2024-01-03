@@ -3,13 +3,13 @@ import "./Style.css"
 
 import StaticName from './components/StaticName';
 import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
 
 
 export default function Home() {
 
-  const elements = []
-  for(let i =0; i < 100; i++){
-    elements.push(Math.random()*1000 | 0)
+  const scroll = (page) => {
+    document.getElementById(page).scrollIntoView();
   }
 
   return (
@@ -21,19 +21,18 @@ export default function Home() {
         <div className="dynamic-content">
 
           <div className="about-me">
-            <AboutMe />
+            <AboutMe scrollDown={scroll}/>
           </div>
 
-          <div className="experience">
-            <p>experience</p>
-
+          <div id="experience" className="experience">
+            <Experience /> 
           </div>
           
-          <div className="project-portfolio">
+          <div id="project-portfolio" className="project-portfolio">
             <p>project portfolio</p>
 
           </div>
-          <div className="contact">
+          <div id="contact" className="contact">
             <p>contact</p>
 
           </div>
@@ -42,13 +41,7 @@ export default function Home() {
             <p>Footer</p>
           </div>
 
-          {
-            elements.map((element, i) => {
-              return (
-                <h1>{element}</h1>
-              )
-            })
-          }
+          
 
         </div>
     </div>

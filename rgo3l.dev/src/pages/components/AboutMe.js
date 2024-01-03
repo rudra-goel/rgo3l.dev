@@ -1,12 +1,21 @@
 import React from 'react'
+
+//images
 import Pfp from "../Profile Picture.jpg"
 import Drone from "../Drone.jpg"
 import Beach from "../Beach.jpg"
 import Graduation from "../Graduation.jpg"
 
-export default function AboutMe() {
+//svg image
+import DownArrow from "../Down Arrow.svg"
+
+
+export default function AboutMe({ scrollDown }) {
   return (
     <div className='about-me'>
+      <div className="about-me-title">
+        Here's a little bit about me!
+      </div>
       <div className="bio-with-pfp">
         <div className="full-bio">
             <div className="bio">
@@ -22,7 +31,12 @@ export default function AboutMe() {
       </div>
         <div className="other-pics">
             <img className="opfp"src={Graduation} alt="Profile Picture" />
-            <img className="opfp"src={Beach} alt="Profile Picture" />
+            <div className="middle-about-me-item">
+              <img className="opfp"src={Beach} alt="Profile Picture" />
+              <a onClick={() => {scrollDown("experience")}}>
+                <img className="down-arrow" src={DownArrow} alt="Down Arrow"/>
+              </a>
+            </div>
             <img className="opfp"src={Drone} alt="Profile Picture" />
         </div>
         
