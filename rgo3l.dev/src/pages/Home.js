@@ -22,13 +22,16 @@ export default function Home() {
         <div className="dynamic-content">
 
           <div className="about-me">
+            <div className="about-me-title">
+              Here's a little bit about me!
+            </div>
             <AboutMe scrollDown={scroll}/>
           </div>
 
           <div id="experience" className="experience-container">
-            <div className='experience-header'>Here is some of my experience</div>
+            <div className='experience-header'>Some Experiences I've Been Apart Of :-)</div>
             <Experience /> 
-            <a href="https://drive.google.com/file/d/1MJMCVuh27jCdWVRyQY3wrHbt6CXtlx5T/view?usp=drive_link" target="__blank">
+            <a href="https://gtvault-my.sharepoint.com/:b:/g/personal/rgoel68_gatech_edu/EQiPKfQBY3FLmAS-aCQNPUcBEtrqbnfnsm6PTOYWh_v-Ng?e=uKhCgX" target="__blank">
               <div className="resume-link">
                 View My Full Resume
               </div>

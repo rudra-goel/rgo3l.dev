@@ -1,96 +1,81 @@
 import React from 'react'
-
+import ExperienceTile from './ExperienceTile'
 //svg image
-import Plus from "../Plus.svg"
+import Bar from "../Horizontal Bar.svg"
 import TopRight from "../Top-Right.svg"
 
 export default function Experience() {
+    const NajafiLab ={
+        Position: "Undergraduate Research Assistant",
+        Date:"Fall 2023",
+        Company:"Najafi Lab",
+        Link:"https://www.najafilab.org/home",
+        Location:"Atlanta, GA",
+        Description:"I made custom circuits for mice stationed in LickOmeter rigs, designed and 3D printed parts to interface with lab instruments and aid researchers.  ",
+        Skills:["Solidworks", "Cura Slicing", "3D Printing", "SCRUM Workflow", "MATLAB", "Python", "Circuit Analysis"],
+
+    }
+    const DART ={
+        Position: "Data Aggregation/Reporting/Testing (DART) Intern",
+        Date:"Summer 2022",
+        Company:"YPrime",
+        Link:"https://yprime.com",
+        Location:"DeVault, PA",
+        Description:"",
+        Skills:[],
+
+    }
   return (
     <div className="experience-tile-container">
         <div className="experience-tile">
-            <div className="position">
-                Undergraduate Research Assistant
-            </div>
-
-            <div className="position-information">
-                Fall 2023 | Najafi Lab | Georgia Tech - Atlanta, GA
-            </div>
-            
-            <div className="breif-experience-description">
-                Laoreet non curabitur gravida arcu ac. Fermentum et sollicitudin ac orci. Risus quis varius quam quisque id diam vel. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vivamus arcu felis bibendum ut tristique et. Ut sem viverra aliquet eget sit amet. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Purus semper eget duis at tellus at urna. Magna sit amet purus gravida. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Amet massa vitae tortor condimentum lacinia quis vel eros.
-            </div>
-
-            <div className="skills-developed">
-                <span className="skill">SolidWorks</span>
-                <span className="skill">MATLAB</span>
-                <span className="skill">Computer-Aided Manufacturing (CAM)</span>
-                
-            </div>
-
+            <ExperienceTile data={NajafiLab} />
             <div className="experience-footer">
-                <img className="down-arrow" src={Plus} alt="Down Arrow"/>
-                <div className="experience-link">
-                    <a className="link" href="https://www.najafilab.org/home" target="__blank">Visit the Official Lab Website</a>
-                    <img className="link-out-arrow" src={TopRight} alt="Link out Arrow"/>
-                </div>
-            </div>
-
-        </div>
-
-        <div className="experience-tile">
-            <div className="position">
-                Undergraduate Research Assistant
-            </div>
-
-            <div className="position-information">
-                Fall 2023 | Najafi Lab | Georgia Tech - Atlanta, GA
-            </div>
-            
-            <div className="breif-experience-description">
-                Laoreet non curabitur gravida arcu ac. Fermentum et sollicitudin ac orci. Risus quis varius quam quisque id diam vel. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vivamus arcu felis bibendum ut tristique et. Ut sem viverra aliquet eget sit amet. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Purus semper eget duis at tellus at urna. Magna sit amet purus gravida. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Amet massa vitae tortor condimentum lacinia quis vel eros.
-            </div>
-
-            <div className="skills-developed">
-                <span className="skill">SolidWorks</span>
-                <span className="skill">MATLAB</span>
-                <span className="skill">Computer-Aided Manufacturing (CAM)</span>
-                
-            </div>
-
-            <div className="experience-footer">
-                <img className="down-arrow" src={Plus} alt="Down Arrow"/>
-                <div className="experience-link">
-                    <a className="link" href="https://www.najafilab.org/home" target="__blank">Visit the Official Lab Website</a>
-                    <img className="link-out-arrow" src={TopRight} alt="Link out Arrow"/>
+                <div>
+                    <input type="checkbox" name="experience_accordian" id="accordian_1" className="accordian_input"></input>
+                    <label for="accordian_1" >
+                        <div className="accordian_label">
+                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
+                            More Info
+                        </div>
+                    </label>
+                    <div className="experience-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
+                    </div>
                 </div>
             </div>
 
         </div>
         <div className="experience-tile">
-            <div className="position">
-                Undergraduate Research Assistant
-            </div>
-
-            <div className="position-information">
-                Fall 2023 | Najafi Lab | Georgia Tech - Atlanta, GA
-            </div>
-            
-            <div className="breif-experience-description">
-                Laoreet non curabitur gravida arcu ac. Fermentum et sollicitudin ac orci. Risus quis varius quam quisque id diam vel. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Vivamus arcu felis bibendum ut tristique et. Ut sem viverra aliquet eget sit amet. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Purus semper eget duis at tellus at urna. Magna sit amet purus gravida. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Amet massa vitae tortor condimentum lacinia quis vel eros.
-            </div>
-
-            <div className="skills-developed">
-                <span className="skill">SolidWorks</span>
-                <span className="skill">MATLAB</span>
-                <span className="skill">Computer-Aided Manufacturing (CAM)</span>
-                
-            </div>
-
+            <ExperienceTile data={DART} />
             <div className="experience-footer">
-                <img className="down-arrow" src={Plus} alt="Down Arrow"/>
-                <div className="experience-link">
-                    <a className="link" href="https://www.najafilab.org/home" target="__blank">Visit the Official Lab Website</a>
-                    <img className="link-out-arrow" src={TopRight} alt="Link out Arrow"/>
+                <div>
+                    <input type="checkbox" name="experience_accordian" id="accordian_2" className="accordian_input"></input>
+                    <label for="accordian_2" >
+                        <div className="accordian_label">
+                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
+                            More Info
+                        </div>
+                    </label>
+                    <div className="experience-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="experience-tile">
+            <ExperienceTile data={DART} />
+            <div className="experience-footer">
+                <div>
+                    <input type="checkbox" name="experience_accordian" id="accordian_2" className="accordian_input"></input>
+                    <label for="accordian_2" >
+                        <div className="accordian_label">
+                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
+                            More Info
+                        </div>
+                    </label>
+                    <div className="experience-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
+                    </div>
                 </div>
             </div>
         </div>
