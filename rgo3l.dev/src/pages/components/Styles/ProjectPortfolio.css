@@ -1,0 +1,17 @@
+
+
+
+.project-portfolio {
+    height: 100vh;
+    background-color: var(--karry);
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-header {
+    font-weight: 700;
+    font-size:3em;
+    padding-top:.5em;
+    margin: auto;
+    color: var(--pickled-bluewood);
+}

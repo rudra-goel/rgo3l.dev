@@ -1,7 +1,8 @@
 import React from 'react'
-import github from "../github.svg"
-import instagram from "../instagram.svg"
-import linkedin from "../linkedin.svg"
+import github from "../Images/github.svg"
+import instagram from "../Images/instagram.svg"
+import linkedin from "../Images/linkedin.svg"
+
 export default function StaticName() {
   return (
     <div className="static-name-container">

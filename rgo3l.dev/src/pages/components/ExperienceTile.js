@@ -1,5 +1,5 @@
 import React from 'react'
-import TopRight from "../Top-Right.svg"
+import TopRight from "../Images/Top-Right.svg"
 
 export default function ExperienceTile({ data }) {
   return (

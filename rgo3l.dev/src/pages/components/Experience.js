@@ -1,8 +1,8 @@
 import React from 'react'
 import ExperienceTile from './ExperienceTile'
 //svg image
-import Bar from "../Horizontal Bar.svg"
-import TopRight from "../Top-Right.svg"
+import Bar from "../Images/Horizontal Bar.svg"
+import TopRight from "../Images/Top-Right.svg"
 
 export default function Experience() {
     const NajafiLab ={

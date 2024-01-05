@@ -1,0 +1,13 @@
+.about-me-title {
+    font-weight: 700;
+    font-size:3em;
+    padding-top:.5em;
+    width: 50%;
+    margin: auto;
+    color: var(--pickled-bluewood);
+}
+
+.about-me {
+    background-color: var(--karry);
+    height: 100vh;
+}

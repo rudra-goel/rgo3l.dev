@@ -1,0 +1,26 @@
+
+.footer {
+    height: 15vh;
+
+    background-color: var(--pickled-bluewood);
+    color: var(--karry);
+
+    padding: 0em 3em 0em 3em;
+    display: grid;
+    align-items: center;
+}
+.footer-a {
+    color: var(--karry);
+    font-weight: bold;
+}
+.footer-name-tm {
+    display: grid;
+    grid-template-columns: 1fr 50fr;
+    gap: 5px;
+    align-items: center;
+    margin-top:1em;
+}
+.copyright {
+    width: 20px;
+    color: var(--karry);
+}

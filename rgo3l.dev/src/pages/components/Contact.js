@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import ContactImage from "../Contact-Image.svg"
+import ContactImage from "../Images/Contact-Image.svg"
 import emailjs from '@emailjs/browser'
 
 export default function () {

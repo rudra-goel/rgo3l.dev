@@ -1,0 +1,46 @@
+
+.static-name {
+    display: grid;
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0 4rem 0 4rem;
+    align-self: center;
+    color: var(--karry);
+    
+}
+.name {
+    display: grid;
+    grid-template-columns: auto auto; /* 25% and remaining space */
+    gap:25px;
+    height: auto;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.rudra {
+    grid-column: 1/2;
+    
+}
+.goel {
+    grid-column: 2/3;
+    padding:50px 0 0 0;
+}
+.student {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.socials {
+    margin-top:2rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap:1rem;
+    bottom: 30px;
+    color: var(--karry);
+}
+.socials-container {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    color: var(--karry)
+}
