@@ -25,12 +25,12 @@ export default function Home() {
   return (
     <div className="home-container">
         <div className="static-name">
-          <StaticName />
+          <StaticName scrollFunction={scroll} />
         </div>
 
         <div className="dynamic-content">
 
-          <div className="about-me">
+          <div id="about-me" className="about-me">
             <div className="about-me-title">
               Hey There! I'm Rudra
             </div>

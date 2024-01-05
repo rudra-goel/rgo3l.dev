@@ -3,9 +3,19 @@
     display: grid;
     font-family: 'Roboto Mono', sans-serif;
     margin: 0 4rem 0 4rem;
-    align-self: center;
     color: var(--karry);
+
     
+}
+.top-image {
+    display: flex;
+    justify-self: center;
+    position: absolute;
+    margin-top: 1em;
+}
+
+.static-name-container {
+    align-self: center;
 }
 .name {
     display: grid;
@@ -28,19 +38,43 @@
     font-family: 'Roboto Mono', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 1em;
 }
-
-.socials {
+.socials-and-scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top:2rem;
+}
+.socials {
     display: grid;
     grid-template-rows: auto auto auto;
     gap:1rem;
     bottom: 30px;
     color: var(--karry);
+    
 }
-.socials-container {
+
+.social-container {
     display: grid;
     grid-template-columns: 1fr 7fr;
-    color: var(--karry)
+    color: var(--karry);
+    gap: 15px;
 }
+
+.scrollwheel {
+    background-color: var(--pickled-blossom);
+    display: grid;
+    padding-left: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 3px solid var(--karry);
+    font-size: 1.2em;
+    gap: 10px;
+    transition: .2s ease
+}
+.toc-page:hover {
+    font-weight: 700;
+    cursor:pointer;
+    transition: .2s ease
+}
+
