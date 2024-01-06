@@ -34,7 +34,7 @@ export default function Home() {
             <div className="about-me-title">
               Hey There! I'm Rudra
             </div>
-            <AboutMe scrollDown={scroll}/>
+            <AboutMe />
           </div>
 
           <div id="experience" className="experience-container">

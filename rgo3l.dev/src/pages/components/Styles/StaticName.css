@@ -4,13 +4,11 @@
     font-family: 'Roboto Mono', sans-serif;
     margin: 0 4rem 0 4rem;
     color: var(--karry);
-
-    
+    align-self: center;
 }
 .top-image {
     display: flex;
     justify-self: center;
-    position: absolute;
     margin-top: 1em;
 }
 
@@ -70,11 +68,12 @@
     border-left: 3px solid var(--karry);
     font-size: 1.2em;
     gap: 10px;
-    transition: .2s ease
+    transition: .5s ease
 }
 .toc-page:hover {
     font-weight: 700;
+    font-size:1.05em;
     cursor:pointer;
-    transition: .2s ease
+    transition: .5s ease
 }
 

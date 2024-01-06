@@ -3,6 +3,8 @@
     background-color: var(--atomic-tangerine);
     display:flex;
     flex-direction:column;
+    border-bottom: 15px solid white;
+
 
 }
 

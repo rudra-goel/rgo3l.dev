@@ -6,6 +6,8 @@
     background-color: var(--karry);
     display: flex;
     flex-direction: column;
+    border-bottom: 15px solid white;
+
 }
 
 .projects-header {

@@ -27,7 +27,6 @@ export default function StaticName({ scrollFunction }) {
                 <a target="_blank" href="https://github.com/rudra-goel">
                   <div className="social-container">
                     <img src={github} height="30px" width="30px"/>
-                    
                     - Github
                   </div>
                 </a>

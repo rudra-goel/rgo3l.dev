@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: var(--crusta);
+    background-color: var(--atomic-tangerine);
 }
 
 .contact-form{
@@ -27,7 +27,7 @@ input {
     border-bottom: 2px solid var(--pickled-bluewood);
     outline: none;
 
-    background-color: var(--crusta);
+    background-color: var(--atomic-tangerine);
 
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1em;
@@ -41,20 +41,24 @@ textarea {
     border: 2px solid var(--pickled-bluewood);
     outline: none;
 
-    background-color: var(--crusta);
+    background-color: var(--atomic-tangerine);
 
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1em;
     padding: 5px
     
 }
+.submit-complete {
+    text-align: center;
+    color: var(--pickled-bluewood)
+}
 
 .submit-btn {
     width:100%;
 
     transition: .3s ease;
-    background-color: var(--atomic-tangerine);
-    border: 2px solid var(--atomic-tangerine);
+    background-color: var(--crusta);
+    border: 2px solid var(--crusta);
     
     border-radius: 2cap;
     
@@ -75,6 +79,7 @@ textarea {
     background-color: var(--karry);
     display: grid;
     align-items: center;
+    color: var(--pickled-bluewood)
 }
 
 .content-container {
