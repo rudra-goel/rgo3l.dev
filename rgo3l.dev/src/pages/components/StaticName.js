@@ -20,7 +20,7 @@ export default function StaticName({ scrollFunction }) {
               </div>
             </div>
             <div className="student">
-              I try to make things
+              Lorem ipsum sit dolor
             </div>
             <div className="socials-and-scroll">
               <div className="socials">

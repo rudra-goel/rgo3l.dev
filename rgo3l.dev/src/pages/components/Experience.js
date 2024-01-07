@@ -1,10 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ExperienceTile from './ExperienceTile'
+import Slidehow from "./Slideshow.js"
 //svg image
 import Bar from "../Images/Horizontal Bar.svg"
 import TopRight from "../Images/Top-Right.svg"
 
+import Img3 from "../Images/Najafi Lab Images/Img3.png"
+import Img4 from "../Images/Najafi Lab Images/Img4.png"
+import Img5 from "../Images/Najafi Lab Images/Img5.png"
+import Img6 from "../Images/Najafi Lab Images/Img6.png"
+import Img7 from "../Images/Najafi Lab Images/Img7.png"
+import Img8 from "../Images/Najafi Lab Images/Img8.png"
+import Img9 from "../Images/Najafi Lab Images/Img9.png"
+import Img10 from "../Images/Najafi Lab Images/Img10.png"
+import Img11 from "../Images/Najafi Lab Images/Img11.png"
+
 export default function Experience() {
+
+    const [isCardActive, setIsCardActive] = useState([false, false, false])
+
+
     const NajafiLab ={
         Position: "Undergraduate Research Assistant",
         Date:"Fall 2023",
@@ -39,17 +54,21 @@ export default function Experience() {
     <div className="experience-tile-container">
         <div className="experience-tile">
             <ExperienceTile data={NajafiLab} />
-            <div className="experience-footer">
-                <div>
-                    <input type="checkbox" name="experience_accordian" id="accordian_1" className="accordian_input"></input>
-                    <label for="accordian_1" >
-                        <div className="accordian_label">
-                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
-                            More Info
-                        </div>
-                    </label>
-                    <div className="experience-more-info">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
+            <div className={`experience-footer`}>
+                <div 
+                    className="accordian_label" 
+                    onClick={() => {
+                        setIsCardActive([!isCardActive[0], false, false]);
+                    }}>
+                    <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
+                    More Info
+                </div>
+                <div className={ `experience-active-${isCardActive[0]}` }>
+                    <div className="slideshow-container">
+                        <Slidehow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
+                    </div>
+                    <div className="experience-footer-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
                     </div>
                 </div>
             </div>
@@ -57,37 +76,46 @@ export default function Experience() {
         </div>
         <div className="experience-tile">
             <ExperienceTile data={DART} />
-            <div className="experience-footer">
-                <div>
-                    <input type="checkbox" name="experience_accordian" id="accordian_2" className="accordian_input"></input>
-                    <label for="accordian_2" >
-                        <div className="accordian_label">
-                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
-                            More Info
-                        </div>
-                    </label>
-                    <div className="experience-more-info">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
-                    </div>
+            <div className={`experience-footer`}>
+                <div 
+                    className="accordian_label" 
+                    onClick={() => {
+                        setIsCardActive([false, !isCardActive[1], false]);
+                    }}>
+                    <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
+                    More Info
                 </div>
+                <div className={ `experience-active-${isCardActive[1]}` }>
+                    <div className="slideshow-container">
+                        <Slidehow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
+                    </div>
+                    <div className="experience-footer-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
+                    </div>                </div>
             </div>
+            
         </div>
         <div className="experience-tile">
             <ExperienceTile data={Robojackets} />
-            <div className="experience-footer">
-                <div>
-                    <input type="checkbox" name="experience_accordian" id="accordian_2" className="accordian_input"></input>
-                    <label for="accordian_2" >
-                        <div className="accordian_label">
-                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
-                            More Info
-                        </div>
-                    </label>
-                    <div className="experience-more-info">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
+            <div className={`experience-footer`}>
+                <div 
+                    className="accordian_label" 
+                    onClick={() => {
+                        setIsCardActive([false, false, !isCardActive[2]]);
+                    }}>
+                    <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
+                    More Info
+                </div>
+                <div className={ `experience-active-${isCardActive[2]}` }>
+                    <div className="slideshow-container">
+                        <Slidehow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
+                    </div>
+                    <div className="experience-footer-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
   )
