@@ -1,7 +1,7 @@
 .about-me {
     background-color: var(--karry);
     border-bottom: 15px solid white;
-    height: 100vh;
+    
 }
 .about-me-title {
     font-weight: 700;
@@ -49,7 +49,7 @@
 }
 
 .fadeInLeft {
-  animation: 1.5s fadeInLeft;
+  animation: 3s fadeInLeft;
 }
 
 @keyframes fadeIn {
@@ -62,7 +62,7 @@
 }
 
 .fadeIn {
-  animation: 1.5s fadeIn;
+  animation: 3s fadeIn;
 }
 
 @keyframes fadeInRight {
@@ -77,7 +77,7 @@
 }
 
 .fadeInRight {
-  animation: 1.5s fadeInRight;
+  animation: 3s fadeInRight;
 }
 
 

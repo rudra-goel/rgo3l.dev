@@ -1,11 +1,7 @@
-
-
-
 .project-portfolio {
-    height: 100vh;
     background-color: var(--karry);
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
     border-bottom: 15px solid white;
 
 }
@@ -13,7 +9,125 @@
 .projects-header {
     font-weight: 700;
     font-size:3em;
-    padding-top:.5em;
+    padding-top:.75em;
     margin: auto;
-    color: var(--pickled-bluewood);
 }
+
+.project-portfolio-container {
+    display: grid;
+    margin: 1em;
+    gap: 40px
+
+}
+
+.left-stationed-tile {
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+}
+
+
+.lst-left-border {
+    background-color: white;
+    padding: .5em;
+    writing-mode: vertical-rl;
+	text-orientation: mixed;
+    rotate: 180deg;
+    font-size: 1.75em;
+    text-align: center;
+
+    border-radius: 0px 20px 20px 0px;
+    
+   
+    z-index: 1;
+
+
+}
+
+.lst-left-border:hover {
+    cursor: pointer;
+}
+.pop-out-proj {
+    margin-right: .5em;
+}
+.pop-in-proj {
+    margin-right: .5em;
+}
+.pop-out-proj img {
+    rotate: 90deg;
+    height: 30px;
+    width: auto;
+    transition: .5s ease;
+}
+.pop-out-proj img:hover {
+    height: 35px;
+    width: auto;
+    transition: .5s ease;
+}
+
+.pop-in-proj img {
+    rotate: -90deg;
+    height: 30px;
+    width: auto;
+    transition: .5s ease;
+}
+.pop-in-proj img:hover {
+    height: 35px;
+    width: auto;
+    transition: .5s ease;
+}
+
+
+@keyframes fadeInLeftProjContent {
+    0% {
+      transform: translateX(-30%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+@keyframes fadeOutLeftProjContent {
+    0% {
+      transform: translateX(0%);
+      opacity: 1;;
+    }
+    100% {
+      transform: translateX(-90%);
+      opacity: 0;
+    }
+}
+
+
+
+.active-content {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 1em;
+    animation: .5s fadeInLeftProjContent;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+.inactive-content {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 1em;
+    z-index: 0;    
+    animation: .5s fadeOutLeftProjContent;
+    opacity:0;
+
+}
+
+.left-stationed-tile:nth-child(2) {
+    rotate: 180deg;
+    
+    .project-content-container {
+        rotate: 180deg;
+    }
+}
+
+
+

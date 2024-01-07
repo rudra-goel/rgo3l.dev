@@ -97,9 +97,7 @@
     display: block;
     
 }
-.accordian_input:checked ~ .accordian_label img {
-    width:60px;;
-}
+
 
 .accordian_label {
     display: flex;

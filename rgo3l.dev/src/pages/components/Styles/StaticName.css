@@ -68,7 +68,10 @@
     border-left: 3px solid var(--karry);
     font-size: 1.2em;
     gap: 10px;
+}
+.toc-page {
     transition: .5s ease
+
 }
 .toc-page:hover {
     font-weight: 700;

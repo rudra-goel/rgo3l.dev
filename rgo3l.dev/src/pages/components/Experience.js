@@ -25,6 +25,16 @@ export default function Experience() {
         Skills:[],
 
     }
+    const Robojackets ={
+        Position: "Electrical SubTeam Lead",
+        Date:"Fall 2023 - Spring 2024",
+        Company:"GT Robojackets",
+        Link:"https://robojackets.org/",
+        Location:"Georgia Tech - Atlanta, GA",
+        Description:"",
+        Skills:[],
+
+    }
   return (
     <div className="experience-tile-container">
         <div className="experience-tile">
@@ -47,6 +57,23 @@ export default function Experience() {
         </div>
         <div className="experience-tile">
             <ExperienceTile data={DART} />
+            <div className="experience-footer">
+                <div>
+                    <input type="checkbox" name="experience_accordian" id="accordian_2" className="accordian_input"></input>
+                    <label for="accordian_2" >
+                        <div className="accordian_label">
+                            <img className="expand-bar" for="accordian_1" src={Bar} alt="Down Arrow" width="100%"/>
+                            More Info
+                        </div>
+                    </label>
+                    <div className="experience-more-info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet aliquam id diam maecenas ultricies mi eget. Lacus vestibulum sed arcu non odio euismod. Egestas integer eget aliquet nibh praesent tristique. Aliquam purus sit amet luctus venenatis. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Elementum tempus egestas sed sed risus pretium. Mauris ultrices eros in cursus turpis massa tincidunt. Sit amet est placerat in egestas erat. Pellentesque sit amet porttitor eget dolor morbi non. Ultrices vitae auctor eu augue.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="experience-tile">
+            <ExperienceTile data={Robojackets} />
             <div className="experience-footer">
                 <div>
                     <input type="checkbox" name="experience_accordian" id="accordian_2" className="accordian_input"></input>
