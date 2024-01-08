@@ -6,6 +6,15 @@ import Slideshow from './Slideshow'
 import Beach from "../Images/Beach.jpg"
 import Graduation from "../Images/Graduation.jpg"
 import Drone from "../Images/Drone.jpg"
+
+import Img1 from "../Images/Senior Capstone Images/Drone.png"
+import Img2 from "../Images/Senior Capstone Images/Design.png"
+import Img3 from "../Images/Senior Capstone Images/ControlBoard.png"
+import Img4 from "../Images/Senior Capstone Images/CircuitBoard.png"
+import Img5 from "../Images/Senior Capstone Images/Flow.png"
+import Img6 from "../Images/Senior Capstone Images/Schematic.png"
+import Img7 from "../Images/Senior Capstone Images/TopFlow.png"
+
 export default function ProjectPortfolio() {
   const [isClicked1, setIsClicked1] = useState(true)
   const [isClicked2, setIsClicked2] = useState(false)
@@ -48,16 +57,24 @@ export default function ProjectPortfolio() {
                     <li>Item</li>
                   </ul>
                   <div className="skills-developed">
-                    <span className="skill">Gooning</span>
+                    <span className="skill">Embedded Systems</span>
+                    <span className="skill">SolidWorks</span>
+                    <span className="skill">EasyEDA</span>
+                    <span className="skill">C Programming Langauge</span>
+                    <span className="skill">3D Printing</span>
+                    <span className="skill">3D Printing</span>
                   </div>
               </div>
               <div className="further-proj-info-link">
-                <a href="#" target="__blank" className="further-proj-info-link">Checkout More!</a>
+                <a href="https://ravana-custom-drones.weebly.com/" target="__blank" className="further-proj-info-link">Official Project Website</a>
+              </div>
+              <div className="further-proj-info-link">
+                <a href="https://www.youtube.com/watch?v=69wT93p-VG0" target="__blank" className="further-proj-info-link">Final Presentation Video</a>
               </div>
             </div>
             
             <div className="project-slideshow">
-              <Slideshow images={[Beach, Graduation, Drone]} />
+              <Slideshow images={[Img1, Img2, Img3, Img4, Img5, Img6, Img7]} />
             </div>
           </div>
 

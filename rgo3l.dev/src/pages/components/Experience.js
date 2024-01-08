@@ -87,7 +87,7 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[1]}` }>
                     <div className="slideshow-container">
-                        <Slidehow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
+                        <Slidehow images={[]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
@@ -108,7 +108,7 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[2]}` }>
                     <div className="slideshow-container">
-                        <Slidehow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
+                        <Slidehow images={[]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 

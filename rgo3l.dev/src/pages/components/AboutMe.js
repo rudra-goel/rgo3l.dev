@@ -17,9 +17,9 @@ export default function AboutMe() {
     <div className="about-me-container">
       <div className="bio-and-image">
         <div className="bio">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Dictum varius duis at consectetur lorem. Elit sed vulputate mi sit. Neque gravida in fermentum et sollicitudin ac orci phasellus. Commodo ullamcorper a lacus vestibulum sed arcu.
+          Hello and thank you for visiting my website! My name is <span className="bold-reg-text">Rudra Goel</span>, and I am a first year <span className="bold-reg-text">Computer Engineering Student @ Georgia Tech</span>. Back in 2017, I took my first shot at microelectronics and got my hands down and dirty with a tiny Arduino Uno starter kit. Ever since then, I've been stumbling upon more and more information about how our modern computers even work. <span className="about-me-italics">My goal one day is to fully understand each component of a computer and the logic behind our engineering standards.</span> 
           <br></br><br></br><br></br>
-          Id faucibus nisl tincidunt eget nullam non. Nec feugiat in fermentum posuere urna. Egestas sed sed risus pretium quam vulputate. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Ultrices dui sapien eget mi proin sed. Vel facilisis volutpat est velit egestas dui. Varius quam quisque id diam vel quam elementum. Condimentum lacinia quis vel eros donec.
+          In my free time, you'll most likely find me watching <span className="bold-reg-text">Cartoon Network</span> or <span className='bold-reg-text'>Spongebob</span> while cooking up 5 min ramen in my dorm. I could also be stuck playing a really aggressive <span className="bold-reg-text">Plants vs Zombies level</span>.  
         </div>
         <div className="bio-svg-image">
           <img src={Duck} alt="Beach"  height="300px" width="auto"/>

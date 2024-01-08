@@ -78,4 +78,26 @@ label:hover {
 @media screen and (min-width:1024px){
     
 }
+
+
+
+/* when the page is on a small screen */
+@media screen and (max-width:1024px){
+   
+    .home-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 3fr; /* 25% and remaining space */
+        grid-gap: 30px; /* Adjust as needed for spacing */
+        height: 100vh;
+        background-color: var(--pickled-bluewood);
+        overflow-y: auto;
+    }
+
+  
+
+
+}
+
+
  

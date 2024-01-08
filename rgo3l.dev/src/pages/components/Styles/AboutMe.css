@@ -25,6 +25,15 @@
   margin-right: 2em
 }
 
+.bold-reg-text {
+  font-weight: 900;
+}
+.about-me-italics {
+  font-style: italic;
+  font-weight: 600;
+
+}
+
 .about-me-images {
     margin-top: 2em;
     padding: 2em 4em;
