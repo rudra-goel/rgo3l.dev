@@ -29,7 +29,10 @@ export default function ExperienceTile({ data }) {
                 {
                     data.Skills.map((skill, i) => {
                         return (
-                            <span className="skill" id={i}>{skill}</span>
+                            <div className="skill-wrapper">
+                                {skill}
+                            </div>
+                            
                         )
                     })
                 }

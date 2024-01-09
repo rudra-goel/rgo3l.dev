@@ -15,6 +15,13 @@ import Img5 from "../Images/Senior Capstone Images/Flow.png"
 import Img6 from "../Images/Senior Capstone Images/Schematic.png"
 import Img7 from "../Images/Senior Capstone Images/TopFlow.png"
 
+import Img8 from "../Images/RG.png"
+import Img9 from "../Images/rgo3l.png"
+import Img10 from "../Images/Static.png"
+
+import Img11 from "../Images/Tuner/BatteryPower.jpg" 
+import Img12 from "../Images/Car.jpg"
+
 export default function ProjectPortfolio() {
   const [isClicked1, setIsClicked1] = useState(true)
   const [isClicked2, setIsClicked2] = useState(false)
@@ -48,21 +55,31 @@ export default function ProjectPortfolio() {
               </div>
 
               <div className="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
+                For my 12th grade Computer Science Capstone project, I decided to make a drone from the ground-up completely, with a focus on designing the the flight controller from scratch. 
+                Throughout the year, I dug my hands deep in datasheets, physics principls and the fundamentals of embedded system design. 
+                Although I was not successful in getting the drone to fly, I was able to control the motors individually based on gyroscopic data and outline the codebase for the control algorithm. 
                   <ul className="project-description-list">
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
+                    <li>First experience at a Capstone project following the engineering design process closely</li>
+                    <li>Design an efficient aero-mechanical system for quadcopter drones</li>
+                    <li>August 2022 - April 2023</li>
+                    <li>Have some fun</li>
                   </ul>
                   <div className="skills-developed">
-                    <span className="skill">Embedded Systems</span>
-                    <span className="skill">SolidWorks</span>
-                    <span className="skill">EasyEDA</span>
-                    <span className="skill">C Programming Langauge</span>
-                    <span className="skill">3D Printing</span>
-                    <span className="skill">3D Printing</span>
+                    <div className="skill-wrapper">
+                      Embedded Systems
+                    </div>
+                    <div className="skill-wrapper">
+                      SolidWorks
+                    </div>
+                    <div className="skill-wrapper">
+                      EasyEDA
+                    </div>
+                    <div className="skill-wrapper">
+                      C Programming Language
+                    </div>
+                    <div className="skill-wrapper">
+                      PCB Fabrication & Soldering
+                    </div>
                   </div>
               </div>
               <div className="further-proj-info-link">
@@ -104,25 +121,32 @@ export default function ProjectPortfolio() {
               </div>
 
               <div className="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
+                What your on right now, Duh! I started version 1 of my personal portfolio website in December of 2023, deployed in January of the next year. 
+                As the footer mentions, I used React.js as my front end web framework and pure CSS to style each component. 
                   <ul className="project-description-list">
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
+                    <li>Utilized foundations in React.js to build personal web portfolio</li>
+                    <li>Gained extensive knowledge about front-end design principles in CSS</li>
+                    <li>December 2023 - January 2024</li>
                   </ul>
                   <div className="skills-developed">
-                    <span className="skill">Gooning</span>
+                    <div className="skill-wrapper">
+                      React.js
+                    </div>
+                    <div className="skill-wrapper">
+                      CSS
+                    </div>
+                    <div className="skill-wrapper">
+                      Google Firebase
+                    </div>
                   </div>
               </div>
               <div className="further-proj-info-link">
-                <a href="#" target="__blank" className="further-proj-info-link">Checkout More!</a>
+                <a href="https://github.com/rudra-goel/rgo3l.dev" target="__blank" className="further-proj-info-link">Checkout The Github</a>
               </div>
             </div>
             
             <div className="project-slideshow">
-              <Slideshow images={[Beach, Graduation, Drone]} />
+              <Slideshow images={[Img8, Img9, Img10]} />
             </div>
           </div>
 
@@ -132,7 +156,7 @@ export default function ProjectPortfolio() {
 
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked3(!isClicked3)}}>
-          Rudamentary Tuner
+          Rudamentary Tuner (In Progress)
           {
             !isClicked3 ? 
             <div className="pop-out-proj">
@@ -152,25 +176,38 @@ export default function ProjectPortfolio() {
               </div>
 
               <div className="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
+                  This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
+                  The only problem is watching those 4 damn advertisements everytime I open the app. The most obvios solution, in my eyes, was to say f*ck it and make my own. 
+                  This is an extremely simple tuner that uses the <span className="bold-reg-text"> Adafruit Trinket M0  </span> equipped with the <span className="bold-reg-text"> SAMD21 Microchip</span>. 
+                  A RGB LED varying colors between red, green, and blue indicates to the user the pitch of their notes. 
                   <ul className="project-description-list">
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
+                    <li>Designed embedded system from scratch with emphasis in simplicity</li>
+                    <li>Introduction to Fourier Transforms, a foundation in Digital Signal Processing</li>
+                    <li>Designed and manufacured housing unit</li>
+                    <li>November 2023 - Present</li>
                   </ul>
                   <div className="skills-developed">
-                    <span className="skill">Gooning</span>
+                    <div className="skill-wrapper">
+                      Embedded Systems
+                    </div>
+                    <div className="skill-wrapper">
+                      CircuitPython
+                    </div>
+                    <div className="skill-wrapper">
+                      Sinusoidal Analysis
+                    </div>
+                    <div className="skill-wrapper">
+                      Digital Signal Processing (DSP)
+                    </div>
                   </div>
               </div>
               <div className="further-proj-info-link">
-                <a href="#" target="__blank" className="further-proj-info-link">Checkout More!</a>
+                <a href="https://gtvault-my.sharepoint.com/:f:/g/personal/rgoel68_gatech_edu/EhM3lGDPIF5DvLFtMJpSDZ8BIP7LX4q-eq8DlkG87h2w9w?e=nWEbDe" target="__blank" className="further-proj-info-link">Checkout My Research and Project Progress</a>
               </div>
             </div>
             
             <div className="project-slideshow">
-              <Slideshow images={[Beach, Graduation, Drone]} />
+              <Slideshow images={[Img11]} />
             </div>
           </div>
         </div>
@@ -199,25 +236,31 @@ export default function ProjectPortfolio() {
               </div>
 
               <div className="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Sit amet cursus sit amet dictum sit amet. 
+                  This is a culminating final project for my 11th grade engineering class. We were tasked with designing a gear car from complete scratch. 
+                  Our car must travel up a ramp without slipping and deposit a ping pong ball in a small can. 
+                  Poweres on ONE 9V battery, we used a BDC motor and a unique series of gears to drive the car forward.  
                   <ul className="project-description-list">
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
+                    <li>Applied Engineering Design Process religiously</li>
+                    <li>Modeled stress and performed analysis on rotating gears to optimize gear tooth design</li>
+                    <li>Laser Cut body </li>
+                    <li>March 2022 - May 2022</li>
                   </ul>
                   <div className="skills-developed">
-                    <span className="skill">Gooning</span>
+                    <div className="skill-wrapper">
+                      Solidworks Design & Simulation
+                    </div>
+                    <div className="skill-wrapper">
+                      Laser Cutting
+                    </div>
                   </div>
               </div>
               <div className="further-proj-info-link">
-                <a href="#" target="__blank" className="further-proj-info-link">Checkout More!</a>
+                <a href="https://drive.google.com/file/d/1H3F9kXrnjGiGh2UM7aDgVGxEFrHICk-8/view?usp=sharing" target="__blank" className="further-proj-info-link">Watch my car vroom</a>
               </div>
             </div>
             
             <div className="project-slideshow">
-              <Slideshow images={[Beach, Graduation, Drone]} />
+              <Slideshow images={[Img12]} />
             </div>
           </div>
         </div>

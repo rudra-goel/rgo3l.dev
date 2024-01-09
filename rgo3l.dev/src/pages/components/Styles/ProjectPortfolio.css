@@ -124,7 +124,7 @@
 
 .project-content-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 4fr 2fr;
 }
 .project-content {
     display: flex;
@@ -139,8 +139,24 @@
 
 
 .project-description-list {
-    margin: 2em 0 0 1em;    
+    margin: 1em 0 2em 1em;    
 }
+
+ .skills-developed {
+    display: flex;
+    gap: 10px;
+    flex-wrap:wrap; 
+    margin: 1.5em 0  1.5em 0;
+    font-size: .75em;
+}
+.skill-wrapper {
+    margin: .5em 0em;
+    padding: .75em;
+    background-color: #5081E2;
+    border-radius: 2cap;
+    color: var(--karry);
+}
+
 
 .further-proj-info-link {
     margin: 1em 0 0 0;
@@ -178,15 +194,17 @@
     }
 }
 .slideshow-images {
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-content: center;
 }
 
 .slideshow-image {
     animation: 1s imageFadeIn;
-    height: 300px;
+    height: auto;
     width: auto;
-    min-width: 150px;
+    max-height: 500px;
+    max-width: 350px;
     padding-bottom: 1em;
     justify-self: center;
 }

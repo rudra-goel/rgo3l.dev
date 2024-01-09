@@ -67,18 +67,6 @@
 }
 
 
-.skills-developed {
-    margin: 1.5em 0  1.5em 0;
-    font-size: .75em;
-}
-.skill {
-    margin: 0 .5em 0 .5em;
-    padding: .75em;
-    background-color: #5081E2;
-    border-radius: 2cap;
-    color: var(--karry);
-}
-
 
 @keyframes fadeInTop {
     0% {
@@ -120,6 +108,10 @@
 .experience-active-false {
     animation: .5s fadeOutTop;
     display: none;
+}
+.experience-active-false-no-images {
+    animation: .5s fadeOutTop;
+    display: none;
     
 }
 .experience-active-true {
@@ -127,6 +119,12 @@
     animation: .5s fadeInTop;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 1em;
+}
+.experience-active-true-no-images {
+    padding: 1em;
+    animation: .5s fadeInTop;
+    display: grid;
     gap: 1em;
 }
 

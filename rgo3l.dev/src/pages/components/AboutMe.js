@@ -7,6 +7,7 @@ import Beach from "../Images/Beach.jpg"
 import Graduation from "../Images/Graduation.jpg"
 import Math from "../Images/Math.svg"
 import Duck from "../Images/Duck.svg"
+import Playing from "../Images/Playing.jpg"
 
 //svg image
 import DownArrow from "../Images/Down Arrow.svg"
