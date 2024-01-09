@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ExperienceTile from './ExperienceTile'
-import Slidehow from "./Slideshow.js"
+import Slideshow from "./Slideshow.js"
 //svg image
 import Bar from "../Images/Horizontal Bar.svg"
 import TopRight from "../Images/Top-Right.svg"
@@ -32,7 +32,7 @@ export default function Experience() {
         Location:"Atlanta, GA",
         Description:"I made custom circuits for mice stationed in LickOmeter rigs, designed and 3D printed parts to interface with lab instruments and aid researchers.  ",
         Skills:["Solidworks", "Cura Slicing", "3D Printing", "SCRUM Workflow", "MATLAB", "Python", "Circuit Analysis"],
-        FooterDescription: "My time in this lab was mainly spent as a lab engineer working under Principle Investigator Dr. Farzaneh Najafi and Lab Tech Tim Stamm. I would often aid lab members in their research by designing and 3D printing peripheral components to lab insturments. Often, the parts my team members and I made were also interfaced with lab mice. The images showcase some examples of parts designed and in action. "
+        FooterDescription: "My time in this lab was mainly spent as a lab engineer working under Principal Investigator Dr. Farzaneh Najafi and Lab Tech Tim Stamm. I would often aid lab members in their research by designing and 3D printing peripheral components to lab instruments. Often, the parts my team members and I made were also interfaced with lab mice. The images showcase some examples of parts designed and in action. "
         
     }
     const DART ={
@@ -42,19 +42,19 @@ export default function Experience() {
         Link:"https://yprime.com",
         Location:"DeVault, PA",
         Description:"Wrote VBA and Python scripts to consolidate and aggregate data from SQL Servers into graphical representations for project analysts.",
-        Skills:["Microsoft Visual Basic", "Python", "MS Office", "Sharepoint", "SQL Server", ],
-        FooterDescription: "I worked closely with a team of 4 and helped them with various tasks from updating sharepoint pages to compiling data. The bulk of my internshipfocussed on creating a data pipeline between the company's SQL server to their sharepoint page for different departments to see. My solution focussed on a combination of Visual Basic and Python to retrieve and organize the data.  "
+        Skills:["Microsoft Visual Basic", "Python", "MS Office", "Sharepoint", "SQL Server"],
+        FooterDescription: "I worked closely with a team of 4 and helped them with various tasks from updating sharepoint pages to compiling data. The bulk of my internship focussed on creating a data pipeline between the company's SQL server to their sharepoint page for different departments to see. My solution focussed on a combination of Visual Basic and Python to retrieve and organize the data.  "
         
     }
     const Robojackets ={
-        Position: "Robowrestling Electrical Architect",
+        Position: "RoboWrestling Electrical Architect",
         Date:"Fall 2023 - Present",
-        Company:"GT Robojackets",
+        Company:"GT RoboJackets",
         Link:"https://robojackets.org/",
         Location:"Georgia Tech - Atlanta, GA",
         Description:"Work closely with a team of 4 to create a 500g robot from scratch. I focus on the ground-up build of the control and power board for our robot. ",
         Skills:["KiCAD", "SolidWorks", "Embedded Systems" , "C Programming", "PCB Manufacturing & Soldering", "Robotics"],
-        FooterDescription: "As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. I design the main controls and power distribution all onto one board. Currently, our robot uses the Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor. Throughout this experience, I have gained a deep understanding in power budgetting and embedded systems design with a strong interest to continue in the future. "
+        FooterDescription: "As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. I design the main controls and power distribution all onto one board. Currently, our robot uses the Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor. Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. "
 
     }
   return (
@@ -72,11 +72,11 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[0]}` }>
                     <div className="slideshow-container">
-                        <Slidehow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
+                        <Slideshow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         My time in this lab was mainly spent as a lab engineer working under Principle Investigator Dr. Farzaneh Najafi and Lab Tech Tim Stamm. 
-                        I would often <span className="bold-reg-text">aid lab members in their research by designing and 3D printing peripheral components to lab insturments</span>. 
+                        I would often <span className="bold-reg-text">aid lab members in their research by designing and 3D printing peripheral components to lab instruments</span>. 
                         Often, the parts my team members and I made were also interfaced with lab mice. 
                         The images showcase some examples of parts designed and in action. 
                     </div>
@@ -118,13 +118,13 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[2]}` }>
                     <div className="slideshow-container">
-                        <Slidehow images={[Img12, Img13, Img14]}/>
+                        <Slideshow images={[Img12, Img13, Img14]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. 
                         I design the main controls and power distribution all onto one board. 
                         Currently, our robot uses the <span className="bold-reg-text">Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor.</span> In addition to the Teensy 4.1, we utilize many other peripherals; consequently, my comprehension off datasheets has improved significantly.  
-                        Throughout this experience, I have gained a deep understanding in power budgetting and embedded systems design with a strong interest to continue in the future. 
+                        Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. 
                     </div>
                 </div>
             </div>

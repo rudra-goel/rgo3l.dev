@@ -56,7 +56,7 @@ export default function ProjectPortfolio() {
 
               <div className="project-description">
                 For my 12th grade Computer Science Capstone project, I decided to make a drone from the ground-up completely, with a focus on designing the the flight controller from scratch. 
-                Throughout the year, I dug my hands deep in datasheets, physics principls and the fundamentals of embedded system design. 
+                Throughout the year, I dug my hands deep in datasheets, physics principles and the fundamentals of embedded system design. 
                 Although I was not successful in getting the drone to fly, I was able to control the motors individually based on gyroscopic data and outline the codebase for the control algorithm. 
                   <ul className="project-description-list">
                     <li>First experience at a Capstone project following the engineering design process closely</li>
@@ -156,7 +156,7 @@ export default function ProjectPortfolio() {
 
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked3(!isClicked3)}}>
-          Rudamentary Tuner (In Progress)
+          Rudimentary Tuner (In Progress)
           {
             !isClicked3 ? 
             <div className="pop-out-proj">
@@ -172,18 +172,18 @@ export default function ProjectPortfolio() {
         <div className='project-content-container'>
             <div className="project-content">
               <div className="project-title">
-                Rudamentary Tuner
+                Rudimentary Tuner
               </div>
 
               <div className="project-description">
                   This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
-                  The only problem is watching those 4 damn advertisements everytime I open the app. The most obvious solution, in my eyes, was to say screw it and make my own. 
+                  The only problem is watching those 4 damn advertisements every time I open the app. The most obvious solution, in my eyes, was to say screw it and make my own. 
                   This is an extremely simple tuner that uses the <span className="bold-reg-text"> Adafruit Trinket M0  </span> equipped with the <span className="bold-reg-text"> SAMD21 Microchip</span>. 
                   A RGB LED varying colors between red, green, and blue indicates to the user the pitch of their notes. 
                   <ul className="project-description-list">
                     <li>Designed embedded system from scratch with emphasis in simplicity</li>
                     <li>Introduction to Fourier Transforms, a foundation in Digital Signal Processing</li>
-                    <li>Designed and manufacured housing unit</li>
+                    <li>Designed and manufactured housing unit</li>
                     <li>November 2023 - Present</li>
                   </ul>
                   <div className="skills-developed">
@@ -238,7 +238,7 @@ export default function ProjectPortfolio() {
               <div className="project-description">
                   This is a culminating final project for my 11th grade engineering class. We were tasked with designing a gear car from complete scratch. 
                   Our car must travel up a ramp without slipping and deposit a ping pong ball in a small can. 
-                  Poweres on ONE 9V battery, we used a BDC motor and a unique series of gears to drive the car forward.  
+                  Powered on ONE 9V battery, we used a BDC motor and a unique series of gears to drive the car forward.  
                   <ul className="project-description-list">
                     <li>Applied Engineering Design Process religiously</li>
                     <li>Modeled stress and performed analysis on rotating gears to optimize gear tooth design</li>
