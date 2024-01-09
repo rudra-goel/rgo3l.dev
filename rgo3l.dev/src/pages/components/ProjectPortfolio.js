@@ -177,7 +177,7 @@ export default function ProjectPortfolio() {
 
               <div className="project-description">
                   This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
-                  The only problem is watching those 4 damn advertisements everytime I open the app. The most obvios solution, in my eyes, was to say f*ck it and make my own. 
+                  The only problem is watching those 4 damn advertisements everytime I open the app. The most obvious solution, in my eyes, was to say screw it and make my own. 
                   This is an extremely simple tuner that uses the <span className="bold-reg-text"> Adafruit Trinket M0  </span> equipped with the <span className="bold-reg-text"> SAMD21 Microchip</span>. 
                   A RGB LED varying colors between red, green, and blue indicates to the user the pitch of their notes. 
                   <ul className="project-description-list">
