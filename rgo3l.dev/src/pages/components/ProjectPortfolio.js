@@ -175,6 +175,9 @@ export default function ProjectPortfolio() {
                 Rudimentary Tuner
               </div>
 
+
+              
+
               <div className="project-description">
                   This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
                   The only problem is watching those 4 damn advertisements every time I open the app. The most obvious solution, in my eyes, was to say screw it and make my own. 
