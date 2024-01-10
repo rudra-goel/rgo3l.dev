@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           
           <div id="project-portfolio" className="project-portfolio">
-            <div className='projects-header'>Cool projects</div>
+            <div className='projects-header'>Cool Projects</div>
             <ProjectPortfolio />
 
           </div>

@@ -48,10 +48,10 @@ export default function Experience() {
     }
     const Robojackets ={
         Position: "RoboWrestling Electrical Architect",
-        Date:"Fall 2023 - Present",
+        Date:"Current",
         Company:"GT RoboJackets",
         Link:"https://robojackets.org/",
-        Location:"Georgia Tech - Atlanta, GA",
+        Location:"Georgia Tech",
         Description:"Work closely with a team of 4 to create a 500g robot from scratch. I focus on the ground-up build of the control and power board for our robot. ",
         Skills:["KiCAD", "SolidWorks", "Embedded Systems" , "C Programming", "PCB Manufacturing & Soldering", "Robotics"],
         FooterDescription: "As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. I design the main controls and power distribution all onto one board. Currently, our robot uses the Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor. Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. "
