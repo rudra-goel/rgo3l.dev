@@ -3,6 +3,8 @@
     border-bottom: 15px solid white;
     
 }
+
+
 .about-me-title {
     font-weight: 700;
     font-size:3em;
@@ -44,6 +46,11 @@
     grid-template-columns: auto auto auto;
     justify-items: center;
 
+}
+
+.about-me-images img {
+  height: 300px; 
+  width: auto
 }
 
 @keyframes fadeInLeft {
@@ -90,5 +97,135 @@
 }
 
 
+@media screen and (max-width: 1390px) {
 
+  
+
+  .about-me {
+    background-color: var(--karry);
+    border-bottom: 15px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+.about-me-title {
+    font-weight: 700;
+    font-size:3em;
+    padding-top:.5em;
+    margin: 1em 1em 0 1em;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    
+    color: var(--pickled-bluewood);
+}
+
+.about-me-container {
+    margin:0;
+    display: grid;
+    gap: 10px;
+
+}
+
+.bio-and-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em 2em;
+  
+}
+
+.bio {
+  
+}
+
+.bio-svg-image {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.bold-reg-text {
+  font-weight: 900;
+}
+.about-me-italics {
+  font-style: italic;
+  font-weight: 600;
+
+}
+
+.about-me-images {
+    padding: 2em 2em;
+    background-color: var(--crusta);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+
+
+    
+
+}
+
+.img-container-abt-me {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-images img {
+  width: 50%;
+  height: auto; 
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInLeft {
+  animation: 3s fadeInLeft;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: 3s fadeIn;
+}
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInRight {
+  animation: 3s fadeInRight;
+}
+}
 

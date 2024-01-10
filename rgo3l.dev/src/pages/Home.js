@@ -32,7 +32,9 @@ export default function Home() {
 
           <div id="about-me" className="about-me">
             <div className="about-me-title">
-              Hey There! I'm Rudra
+              <div>
+                Hey There! I'm Rudra
+              </div>
             </div>
             <AboutMe />
           </div>

@@ -11,7 +11,7 @@ export default function StaticName({ scrollFunction }) {
         <img src={Fireworks} height="250px" width="250px"/>
       </div>
       <div className="static-name-container">
-          <div className="name">
+            <div className="name">
               <div className="rudra">
                 Rudra
               </div>

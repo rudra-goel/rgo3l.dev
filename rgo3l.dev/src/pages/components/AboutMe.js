@@ -27,9 +27,16 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="about-me-images">
-        <img src={Beach} className="fadeInLeft" alt="Beach"  height="300px" width="auto"/>
-        <img src={Pfp} className="fadeIn" alt="Beach"  height="300px" width="auto"/>
-        <img src={Drone} className="fadeInRight" alt="Beach"  height="300px" width="auto"/>
+        <div className="img-container-abt-me">
+          <img src={Beach} className="fadeInLeft" alt="Beach"  />
+        </div>
+        <div className="img-container-abt-me">
+          <img src={Pfp} className="fadeInLeft" alt="Beach"  />
+        </div>
+        <div className="img-container-abt-me">
+          <img src={Drone} className="fadeInLeft" alt="Beach"  />
+        </div>
+        
       </div>
         
     </div>
