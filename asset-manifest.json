@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rgo3l.dev/static/css/main.d7e11860.css",
-    "main.js": "/rgo3l.dev/static/js/main.d3b3c363.js",
+    "main.css": "/rgo3l.dev/static/css/main.b9278334.css",
+    "main.js": "/rgo3l.dev/static/js/main.f9388d18.js",
     "static/media/Img3.png": "/rgo3l.dev/static/media/Img3.2792fcf94a0a62f5cc08.png",
     "static/media/Img4.png": "/rgo3l.dev/static/media/Img4.cc29c1d61928c7bae38b.png",
     "static/media/Img10.png": "/rgo3l.dev/static/media/Img10.4b28b1a7062d34104073.png",
@@ -44,11 +44,11 @@
     "static/media/Top-Right.svg": "/rgo3l.dev/static/media/Top-Right.0e938dbba17b3bba8c6439b7311497de.svg",
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
-    "main.d7e11860.css.map": "/rgo3l.dev/static/css/main.d7e11860.css.map",
-    "main.d3b3c363.js.map": "/rgo3l.dev/static/js/main.d3b3c363.js.map"
+    "main.b9278334.css.map": "/rgo3l.dev/static/css/main.b9278334.css.map",
+    "main.f9388d18.js.map": "/rgo3l.dev/static/js/main.f9388d18.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7e11860.css",
-    "static/js/main.d3b3c363.js"
+    "static/css/main.b9278334.css",
+    "static/js/main.f9388d18.js"
   ]
 }
