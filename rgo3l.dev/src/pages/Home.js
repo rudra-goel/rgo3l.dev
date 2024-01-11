@@ -59,7 +59,7 @@ export default function Home() {
             <Contact />
           </div>
 
-          <div className="footer">
+          <div id="footer" className="footer">
             <Footer />
           </div>
 

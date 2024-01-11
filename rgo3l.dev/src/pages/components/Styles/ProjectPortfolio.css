@@ -267,6 +267,7 @@
         display:flex;
         flex-direction:column;
         border-bottom: 15px solid white;
+        width: 100vw;
     
     }
     
@@ -274,7 +275,6 @@
         font-weight: 700;
         font-size:3em;
         padding-top:.5em;
-        margin: 1em 1em 0 1em;
         width: auto;
 
         display: flex;
@@ -285,7 +285,8 @@
     }
     
     .project-portfolio-container {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         margin: 1em;
         gap: 40px
     
@@ -294,20 +295,21 @@
     .left-stationed-tile {
         display: flex;
         flex-direction: column;
+        width: 100%;;
     }
     
     
     .lst-left-border {
         background-color: var(--crusta);
-        padding: .5em;
+        padding: 0;
         writing-mode: horizontal-tb;
         text-orientation: mixed;
         rotate: 0deg;
         font-size: 1.75em;
         text-align: center;
-        
+        width: 100%;;
     
-        border-radius: 20px;
+        border-radius: 20px 20px 0 0;
         
        
         z-index: 0;
@@ -326,7 +328,7 @@
         margin-right: .5em;
     }
     .pop-out-proj img {
-        rotate: 90deg;
+        rotate: 0deg;
         height: 30px;
         width: auto;
         transition: .5s ease;
@@ -338,7 +340,7 @@
     }
     
     .pop-in-proj img {
-        rotate: -90deg;
+        rotate: 180deg;
         height: 30px;
         width: auto;
         transition: .5s ease;
@@ -374,12 +376,13 @@
     
     
     .active-content {
-        display: grid;
+        display: flex;
     
         background-color: var(--atomic-tangerine);
         padding: 1em;
         animation: none;
-        border-radius: 0px 20px 20px 0px;
+        border-radius: 0 0 20px 20px;
+        justify-content: center;
 
         
     }
@@ -402,6 +405,7 @@
     .project-content {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .project-title {
         font-size: 2em;
@@ -409,7 +413,11 @@
         text-align: center; 
         margin-bottom: 1em;
     }
-    
+    .project-description {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
     
     .project-description-list {
         margin: 1em 0 2em 1em;    
@@ -438,6 +446,7 @@
         text-decoration: underline;
         font-size: 1em;
         transition: .1s ease;
+        width: 90vw;
     }
     .further-proj-info-link:hover {
       
@@ -455,7 +464,8 @@
         display: grid;
         grid-template-rows: auto auto;
         gap: 2em;
-        padding: 2em 2em 0 2em;
+        padding: 0em;
+        width: 90vw;
     }
     
     @keyframes imageFadeIn {
@@ -470,15 +480,16 @@
         display: grid;
         justify-content: center;
         align-content: center;
+        margin-top: 1em;
     }
     
     .slideshow-image {
         animation: 1s imageFadeIn;
         height: auto;
-        width: auto;
+        width: 80vw;;
         max-height: 500px;
         max-width: 350px;
-        padding-bottom: 1em;
+        padding-bottom: 0em;
         justify-self: center;
     }
     

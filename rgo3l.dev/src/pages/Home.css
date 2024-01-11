@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 :root {
@@ -20,6 +21,7 @@
     grid-gap: 30px; /* Adjust as needed for spacing */
     height: 100vh;
     background-color: var(--pickled-bluewood);
+    
 }
 
 a {
@@ -75,13 +77,6 @@ label:hover {
 
 
 
-
-
-
-/* when the page is on a massive screen */
-@media screen and (min-width:1024px){
-    
-}
 
 
 

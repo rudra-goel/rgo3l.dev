@@ -36,7 +36,7 @@ export default function Experience() {
         
     }
     const DART ={
-        Position: "Data Aggregation/Reporting/Testing (DART) Intern",
+        Position: "Data Aggregation / Reporting / Testing (DART) Intern",
         Date:"Summer 2022",
         Company:"YPrime",
         Link:"https://yprime.com",
