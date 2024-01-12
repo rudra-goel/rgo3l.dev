@@ -9,5 +9,7 @@ function App() {
     </div>
   );
 }
+//this is a comment I want to put into here
+//example of comment in js
 
 export default App;
