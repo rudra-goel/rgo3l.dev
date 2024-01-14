@@ -44,8 +44,7 @@ export default function Home() {
             <Experience /> 
             <div className="resume-link">
               <a 
-href="https://gtvault-my.sharepoint.com/:b:/g/personal/rgoel68_gatech_edu/Ef0Pl2PL025HkKNC8mk6jr0BGRFhJH35uFExi37ZKsMnJw?e=pTUbpN" 
-target="__blank">
+href="https://gtvault-my.sharepoint.com/:b:/g/personal/rgoel68_gatech_edu/EVwm-DFFlh5Pg1x0g1fvhkgBvR-aCPMCEHsmuSQqjLdvLg?e=60LHV6">
                   View Full Resume
               </a>
               <img className="resume-link-arrow"src={RightArrow} alt="Right Arrow" />
