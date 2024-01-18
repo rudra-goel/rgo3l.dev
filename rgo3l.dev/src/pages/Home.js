@@ -43,8 +43,7 @@ export default function Home() {
             <div className='experience-header'>Some Experiences I've Been Apart Of :-)</div>
             <Experience /> 
             <div className="resume-link">
-              <a 
-href="https://gtvault-my.sharepoint.com/:b:/g/personal/rgoel68_gatech_edu/EVwm-DFFlh5Pg1x0g1fvhkgBvR-aCPMCEHsmuSQqjLdvLg?e=60LHV6">
+              <a href="https://drive.google.com/drive/folders/1pHCjDcQ8l060mIrOqW_r2hfBqHDI48Fq?usp=sharing">
                   View Full Resume
               </a>
               <img className="resume-link-arrow"src={RightArrow} alt="Right Arrow" />
