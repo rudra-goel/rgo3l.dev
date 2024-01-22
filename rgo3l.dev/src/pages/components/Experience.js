@@ -15,13 +15,16 @@ import Img9 from "../Images/Najafi Lab Images/Img9.png"
 import Img10 from "../Images/Najafi Lab Images/Img10.png"
 import Img11 from "../Images/Najafi Lab Images/Img11.png"
 
-import Img12 from "../Images/Robojackets Images/Full Schematic.png"
+import Img12 from "../Images/Robojackets Images/Schematic-Full.png"
 import Img13 from "../Images/Robojackets Images/Converter.png"
 import Img14 from "../Images/Robojackets Images/Motors.png"
+import Img15 from "../Images/Robojackets Images/Full Bot.png"
+import Img16 from "../Images/Robojackets Images/Exposed Bot.png"
+import Img17 from "../Images/Robojackets Images/PCB.png"
 
 export default function Experience() {
 
-    const [isCardActive, setIsCardActive] = useState([false, false, false])
+    const [isCardActive, setIsCardActive] = useState([true, false, false])
 
 
     const NajafiLab ={
@@ -60,7 +63,7 @@ export default function Experience() {
   return (
     <div className="experience-tile-container">
         <div className="experience-tile">
-            <ExperienceTile data={NajafiLab} />
+            <ExperienceTile data={Robojackets} />
             <div className={`experience-footer`}>
                 <div 
                     className="accordian_label" 
@@ -71,6 +74,31 @@ export default function Experience() {
                     More Info
                 </div>
                 <div className={ `experience-active-${isCardActive[0]}` }>
+                    <div className="slideshow-container">
+                        <Slideshow images={[Img15, Img12, Img13 , Img16, Img17]}/>
+                    </div>
+                    <div className="experience-footer-more-info">
+                        As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. 
+                        I design the main controls and power distribution all onto one board. 
+                        Currently, our robot uses the <span className="bold-reg-text">Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor.</span> In addition to the Teensy 4.1, we utilize many other peripherals; consequently, my comprehension off datasheets has improved significantly.  
+                        Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div className="experience-tile">
+            <ExperienceTile data={NajafiLab} />
+            <div className={`experience-footer`}>
+                <div 
+                    className="accordian_label" 
+                    onClick={() => {
+                        setIsCardActive([false, !isCardActive[1], false]);
+                    }}>
+                    <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
+                    More Info
+                </div>
+                <div className={ `experience-active-${isCardActive[1]}` }>
                     <div className="slideshow-container">
                         <Slideshow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
                     </div>
@@ -90,12 +118,12 @@ export default function Experience() {
                 <div 
                     className="accordian_label" 
                     onClick={() => {
-                        setIsCardActive([false, !isCardActive[1], false]);
+                        setIsCardActive([false, false, !isCardActive[2]]);
                     }}>
                     <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
                     More Info
                 </div>
-                <div className={ `experience-active-${isCardActive[1]}-no-images` }>
+                <div className={ `experience-active-${isCardActive[2]}-no-images` }>
                     <div className="experience-footer-more-info">
                         I worked closely with a team of 4 and helped them with various tasks from updating sharepoint pages to compiling data. 
                         The bulk of my internship focussed on creating a data pipeline between the company's SQL server to their sharepoint page for different departments to see. 
@@ -105,31 +133,7 @@ export default function Experience() {
             </div>
             
         </div>
-        <div className="experience-tile">
-            <ExperienceTile data={Robojackets} />
-            <div className={`experience-footer`}>
-                <div 
-                    className="accordian_label" 
-                    onClick={() => {
-                        setIsCardActive([false, false, !isCardActive[2]]);
-                    }}>
-                    <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
-                    More Info
-                </div>
-                <div className={ `experience-active-${isCardActive[2]}` }>
-                    <div className="slideshow-container">
-                        <Slideshow images={[Img12, Img13, Img14]}/>
-                    </div>
-                    <div className="experience-footer-more-info">
-                        As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. 
-                        I design the main controls and power distribution all onto one board. 
-                        Currently, our robot uses the <span className="bold-reg-text">Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor.</span> In addition to the Teensy 4.1, we utilize many other peripherals; consequently, my comprehension off datasheets has improved significantly.  
-                        Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. 
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+        
     </div>
   )
 }
