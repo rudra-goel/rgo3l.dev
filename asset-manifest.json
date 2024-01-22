@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rgo3l.dev/static/css/main.cfd8b0bf.css",
-    "main.js": "/rgo3l.dev/static/js/main.2c112a71.js",
+    "main.js": "/rgo3l.dev/static/js/main.f5df13c1.js",
     "static/media/Img3.png": "/rgo3l.dev/static/media/Img3.2792fcf94a0a62f5cc08.png",
     "static/media/Img4.png": "/rgo3l.dev/static/media/Img4.cc29c1d61928c7bae38b.png",
     "static/media/Img10.png": "/rgo3l.dev/static/media/Img10.4b28b1a7062d34104073.png",
@@ -18,7 +18,8 @@
     "static/media/Graduation.jpg": "/rgo3l.dev/static/media/Graduation.bd689452a988743bed90.jpg",
     "static/media/Flow.png": "/rgo3l.dev/static/media/Flow.741fa5d9df608890d302.png",
     "static/media/Img11.png": "/rgo3l.dev/static/media/Img11.1ffcb38ab4f10bb2d042.png",
-    "static/media/Full Schematic.png": "/rgo3l.dev/static/media/Full Schematic.6ad6e2e7f1ee6893a36c.png",
+    "static/media/Schematic-Full.png": "/rgo3l.dev/static/media/Schematic-Full.6ea974f51b004ee51000.png",
+    "static/media/PCB.png": "/rgo3l.dev/static/media/PCB.6ab1b496135e02bfb300.png",
     "static/media/Schematic.png": "/rgo3l.dev/static/media/Schematic.150a171b64beefc00ea5.png",
     "static/media/Playing.jpg": "/rgo3l.dev/static/media/Playing.bce6874a133d1c852be3.jpg",
     "static/media/CircuitBoard.png": "/rgo3l.dev/static/media/CircuitBoard.de13dca9717fb0124c74.png",
@@ -26,8 +27,10 @@
     "static/media/ControlBoard.png": "/rgo3l.dev/static/media/ControlBoard.819d9c1489509324ca4e.png",
     "static/media/rgo3l.png": "/rgo3l.dev/static/media/rgo3l.f423cd47ba398056cf8c.png",
     "static/media/Static.png": "/rgo3l.dev/static/media/Static.6f0ff2722a77fc199649.png",
+    "static/media/Full Bot.png": "/rgo3l.dev/static/media/Full Bot.fb7f01fdf0efa203f3b9.png",
     "static/media/Motors.png": "/rgo3l.dev/static/media/Motors.b781c04117cfa02bc07b.png",
     "static/media/TopFlow.png": "/rgo3l.dev/static/media/TopFlow.c63914a0e11a5033ba00.png",
+    "static/media/Exposed Bot.png": "/rgo3l.dev/static/media/Exposed Bot.c56a4baeea7cdaeb2431.png",
     "static/media/Converter.png": "/rgo3l.dev/static/media/Converter.6d3f9945596d4a923741.png",
     "static/media/Design.png": "/rgo3l.dev/static/media/Design.7a42d027231220a95609.png",
     "static/media/Fireworks.svg": "/rgo3l.dev/static/media/Fireworks.ac3dea21559e7ea0010fc8a6dab67620.svg",
@@ -45,10 +48,10 @@
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.cfd8b0bf.css.map": "/rgo3l.dev/static/css/main.cfd8b0bf.css.map",
-    "main.2c112a71.js.map": "/rgo3l.dev/static/js/main.2c112a71.js.map"
+    "main.f5df13c1.js.map": "/rgo3l.dev/static/js/main.f5df13c1.js.map"
   },
   "entrypoints": [
     "static/css/main.cfd8b0bf.css",
-    "static/js/main.2c112a71.js"
+    "static/js/main.f5df13c1.js"
   ]
 }
