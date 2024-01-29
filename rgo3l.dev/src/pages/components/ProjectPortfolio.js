@@ -197,15 +197,13 @@ export default function ProjectPortfolio() {
                       CircuitPython
                     </div>
                     <div className="skill-wrapper">
-                      Sinusoidal Analysis
-                    </div>
-                    <div className="skill-wrapper">
                       Digital Signal Processing (DSP)
                     </div>
                   </div>
               </div>
               <div className="further-proj-info-link">
-                <a href="https://gtvault-my.sharepoint.com/:f:/g/personal/rgoel68_gatech_edu/EhM3lGDPIF5DvLFtMJpSDZ8BIP7LX4q-eq8DlkG87h2w9w?e=nWEbDe" target="__blank" className="further-proj-info-link">Checkout My Research and Project Progress</a>
+                <a href="https://github.com/rudra-goel/Tuner" target="__blank" 
+className="further-proj-info-link">Checkout My Research and Project Progress</a>
               </div>
             </div>
             
