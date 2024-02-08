@@ -153,7 +153,7 @@ export default function ProjectPortfolio() {
         </div>
         
       </div>
-{/* 
+
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked3(!isClicked3)}}>
           Rudimentary Tuner (In Progress)
@@ -213,7 +213,7 @@ className="further-proj-info-link">Checkout My Research and Project Progress</a>
           </div>
         </div>
         
-      </div> */}
+      </div>
 
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked4(!isClicked4)}}>
