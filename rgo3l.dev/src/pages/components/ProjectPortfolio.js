@@ -35,7 +35,7 @@ export default function ProjectPortfolio() {
     <div className="project-portfolio-container">
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked1(!isClicked1)}}>
-          Senior Capstone
+          Rudimentary Tuner (In Progress)
           {
             !isClicked1 ? 
             <div className="pop-out-proj">
@@ -48,6 +48,70 @@ export default function ProjectPortfolio() {
           }
         </div>
         <div className={ isClicked1 ? `active-content` : `inactive-content` }>
+        <div className='project-content-container'>
+            <div className="project-content">
+              <div className="project-title">
+                Rudimentary Tuner
+              </div>
+
+
+              
+
+              <div className="project-description">
+                  This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
+                  I've been doing it for so long, but I never really understood what's going on behind the scenes. So, I wanted to learn more. 
+                  This is an extremely simple tuner that uses the <span className="bold-reg-text"> Elegoo Uno R3  </span> equipped with the <span className="bold-reg-text"> Atmega 328P microprocessor </span>. 
+                  A RGB LED varying colors between blue, green, and red indicates to the user the how flat or sharp their instrument is. 
+                  <ul className="project-description-list">
+                    <li>Designed embedded system from scratch with emphasis in simplicity</li>
+                    <li>Introduction to Fourier Transforms, a foundation in Digital Signal Processing</li>
+                    <li>Designed and manufactured housing unit</li>
+                    <li>November 2023 - Present</li>
+                  </ul>
+                  <div className="skills-developed">
+                    <div className="skill-wrapper">
+                      Embedded Systems
+                    </div>
+                    <div className="skill-wrapper">
+                      CircuitPython
+                    </div>
+                    <div className="skill-wrapper">
+                      Digital Signal Processing (DSP)
+                    </div>
+                  </div>
+              </div>
+              <div className="further-proj-info-link">
+                <a href="https://github.com/rudra-goel/Tuner" target="__blank" 
+className="further-proj-info-link">Checkout My Research and Project Progress</a>
+              </div>
+              <div className="further-proj-info-link">
+              <a href="https://drive.google.com/drive/folders/1P0aZlLg1fVU2hS_mk4kBqOxoSB63m7Jk?usp=drive_link" target="__blank" 
+className="further-proj-info-link">Checkout Some Videos</a>
+              </div>
+            </div>
+            
+            <div className="project-slideshow">
+              <Slideshow images={[Img11]} />
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div className="left-stationed-tile">
+        <div className="lst-left-border" onClick={() => {setIsClicked2(!isClicked2)}}>
+          Senior Capstone
+          {
+            !isClicked2 ? 
+            <div className="pop-out-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+            :
+            <div className="pop-in-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+          }
+        </div>
+        <div className={ isClicked2 ? `active-content` : `inactive-content` }>
           <div className='project-content-container'>
             <div className="project-content">
               <div className="project-title">
@@ -100,10 +164,10 @@ export default function ProjectPortfolio() {
       </div>
 
       <div className="left-stationed-tile">
-        <div className="lst-left-border" onClick={() => {setIsClicked2(!isClicked2)}}>
+        <div className="lst-left-border" onClick={() => {setIsClicked3(!isClicked3)}}>
           rgo3l.dev
           {
-            !isClicked2 ? 
+            !isClicked3 ? 
             <div className="pop-out-proj">
               <img src={DownArrow} alt="out-arrow" />
             </div>
@@ -113,7 +177,7 @@ export default function ProjectPortfolio() {
             </div>
           }
         </div>
-        <div className={ isClicked2 ? `active-content` : `inactive-content` }>
+        <div className={ isClicked3 ? `active-content` : `inactive-content` }>
         <div className='project-content-container'>
             <div className="project-content">
               <div className="project-title">
@@ -154,66 +218,7 @@ export default function ProjectPortfolio() {
         
       </div>
 
-      <div className="left-stationed-tile">
-        <div className="lst-left-border" onClick={() => {setIsClicked3(!isClicked3)}}>
-          Rudimentary Tuner (In Progress)
-          {
-            !isClicked3 ? 
-            <div className="pop-out-proj">
-              <img src={DownArrow} alt="out-arrow" />
-            </div>
-            :
-            <div className="pop-in-proj">
-              <img src={DownArrow} alt="out-arrow" />
-            </div>
-          }
-        </div>
-        <div className={ isClicked3 ? `active-content` : `inactive-content` }>
-        <div className='project-content-container'>
-            <div className="project-content">
-              <div className="project-title">
-                Rudimentary Tuner
-              </div>
-
-
-              
-
-              <div className="project-description">
-                  This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
-                  The only problem is watching those 4 damn advertisements every time I open the app. The most obvious solution, in my eyes, was to say screw it and make my own. 
-                  This is an extremely simple tuner that uses the <span className="bold-reg-text"> Adafruit Trinket M0  </span> equipped with the <span className="bold-reg-text"> SAMD21 Microchip</span>. 
-                  A RGB LED varying colors between red, green, and blue indicates to the user the pitch of their notes. 
-                  <ul className="project-description-list">
-                    <li>Designed embedded system from scratch with emphasis in simplicity</li>
-                    <li>Introduction to Fourier Transforms, a foundation in Digital Signal Processing</li>
-                    <li>Designed and manufactured housing unit</li>
-                    <li>November 2023 - Present</li>
-                  </ul>
-                  <div className="skills-developed">
-                    <div className="skill-wrapper">
-                      Embedded Systems
-                    </div>
-                    <div className="skill-wrapper">
-                      CircuitPython
-                    </div>
-                    <div className="skill-wrapper">
-                      Digital Signal Processing (DSP)
-                    </div>
-                  </div>
-              </div>
-              <div className="further-proj-info-link">
-                <a href="https://github.com/rudra-goel/Tuner" target="__blank" 
-className="further-proj-info-link">Checkout My Research and Project Progress</a>
-              </div>
-            </div>
-            
-            <div className="project-slideshow">
-              <Slideshow images={[Img11]} />
-            </div>
-          </div>
-        </div>
-        
-      </div>
+      
 
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked4(!isClicked4)}}>
