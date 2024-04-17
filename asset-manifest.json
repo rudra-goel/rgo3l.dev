@@ -1,32 +1,40 @@
 {
   "files": {
     "main.css": "/rgo3l.dev/static/css/main.cfd8b0bf.css",
-    "main.js": "/rgo3l.dev/static/js/main.ce8f4f81.js",
+    "main.js": "/rgo3l.dev/static/js/main.bbc28f04.js",
     "static/media/Img3.png": "/rgo3l.dev/static/media/Img3.2792fcf94a0a62f5cc08.png",
     "static/media/Product.png": "/rgo3l.dev/static/media/Product.e1bced6715cbcbf9c4f1.png",
     "static/media/Img4.png": "/rgo3l.dev/static/media/Img4.cc29c1d61928c7bae38b.png",
     "static/media/Img10.png": "/rgo3l.dev/static/media/Img10.4b28b1a7062d34104073.png",
     "static/media/Img6.png": "/rgo3l.dev/static/media/Img6.f5e50358d4f9641979e4.png",
     "static/media/Img8.png": "/rgo3l.dev/static/media/Img8.d74b2d7ae1606353f450.png",
+    "static/media/RobotAssembledSideAngle.jpg": "/rgo3l.dev/static/media/RobotAssembledSideAngle.a9c9904edc60b5b88e5c.jpg",
     "static/media/Profile Picture.jpg": "/rgo3l.dev/static/media/Profile Picture.279b42ed62588ebc271d.jpg",
     "static/media/Drone.jpg": "/rgo3l.dev/static/media/Drone.775eec9cb83447c547e8.jpg",
     "static/media/Beach.jpg": "/rgo3l.dev/static/media/Beach.fc1d4a7a2514887587ae.jpg",
+    "static/media/V4_Opener.jpg": "/rgo3l.dev/static/media/V4_Opener.76b4d94fca6cdfd3b87e.jpg",
     "static/media/Img7.png": "/rgo3l.dev/static/media/Img7.82fd9093cfa06e3012ce.png",
     "static/media/Car.jpg": "/rgo3l.dev/static/media/Car.4325e22f3ad9f3428fd4.jpg",
     "static/media/Img5.png": "/rgo3l.dev/static/media/Img5.dff2d5acea052bb547cf.png",
     "static/media/Img9.png": "/rgo3l.dev/static/media/Img9.c1d1c074cfdf253f5f0e.png",
+    "static/media/RobotAssembledV1.jpg": "/rgo3l.dev/static/media/RobotAssembledV1.de79d31c5eee8a816a41.jpg",
     "static/media/BatteryPower.jpg": "/rgo3l.dev/static/media/BatteryPower.ccc83d7a5f05c74c6ef9.jpg",
+    "static/media/PCB.jpg": "/rgo3l.dev/static/media/PCB.b071bb42a0cf04644af4.jpg",
     "static/media/Graduation.jpg": "/rgo3l.dev/static/media/Graduation.bd689452a988743bed90.jpg",
+    "static/media/Assembly.png": "/rgo3l.dev/static/media/Assembly.417e5aec76f53132721c.png",
     "static/media/Flow.png": "/rgo3l.dev/static/media/Flow.741fa5d9df608890d302.png",
     "static/media/Img11.png": "/rgo3l.dev/static/media/Img11.1ffcb38ab4f10bb2d042.png",
     "static/media/Schematic-Full.png": "/rgo3l.dev/static/media/Schematic-Full.6ea974f51b004ee51000.png",
+    "static/media/V2_Opener.png": "/rgo3l.dev/static/media/V2_Opener.aed209a05eb2f0e49070.png",
+    "static/media/V1_Opener.png": "/rgo3l.dev/static/media/V1_Opener.62a74142cb50ac97d5b2.png",
     "static/media/PCB.png": "/rgo3l.dev/static/media/PCB.6ab1b496135e02bfb300.png",
-    "static/media/Schematic.png": "/rgo3l.dev/static/media/Schematic.150a171b64beefc00ea5.png",
+    "static/media/Schematic.png": "/rgo3l.dev/static/media/Schematic.3d76434bc74e7a679589.png",
     "static/media/Playing.jpg": "/rgo3l.dev/static/media/Playing.bce6874a133d1c852be3.jpg",
     "static/media/Tuner Schematic.png": "/rgo3l.dev/static/media/Tuner Schematic.7ec75dcf450c1135bbb2.png",
     "static/media/CircuitBoard.png": "/rgo3l.dev/static/media/CircuitBoard.de13dca9717fb0124c74.png",
     "static/media/Drone.png": "/rgo3l.dev/static/media/Drone.53723f84b4f049bb5565.png",
     "static/media/ControlBoard.png": "/rgo3l.dev/static/media/ControlBoard.819d9c1489509324ca4e.png",
+    "static/media/V3_Opener.png": "/rgo3l.dev/static/media/V3_Opener.788367cc8462f181f948.png",
     "static/media/rgo3l.png": "/rgo3l.dev/static/media/rgo3l.f423cd47ba398056cf8c.png",
     "static/media/Static.png": "/rgo3l.dev/static/media/Static.6f0ff2722a77fc199649.png",
     "static/media/Full Bot.png": "/rgo3l.dev/static/media/Full Bot.fb7f01fdf0efa203f3b9.png",
@@ -50,10 +58,10 @@
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.cfd8b0bf.css.map": "/rgo3l.dev/static/css/main.cfd8b0bf.css.map",
-    "main.ce8f4f81.js.map": "/rgo3l.dev/static/js/main.ce8f4f81.js.map"
+    "main.bbc28f04.js.map": "/rgo3l.dev/static/js/main.bbc28f04.js.map"
   },
   "entrypoints": [
     "static/css/main.cfd8b0bf.css",
-    "static/js/main.ce8f4f81.js"
+    "static/js/main.bbc28f04.js"
   ]
 }
