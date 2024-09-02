@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rgo3l.dev/static/css/main.cfd8b0bf.css",
-    "main.js": "/rgo3l.dev/static/js/main.bbc28f04.js",
+    "main.css": "/rgo3l.dev/static/css/main.d6c286de.css",
+    "main.js": "/rgo3l.dev/static/js/main.8604f720.js",
     "static/media/Img3.png": "/rgo3l.dev/static/media/Img3.2792fcf94a0a62f5cc08.png",
     "static/media/Product.png": "/rgo3l.dev/static/media/Product.e1bced6715cbcbf9c4f1.png",
     "static/media/Img4.png": "/rgo3l.dev/static/media/Img4.cc29c1d61928c7bae38b.png",
@@ -10,6 +10,7 @@
     "static/media/Img8.png": "/rgo3l.dev/static/media/Img8.d74b2d7ae1606353f450.png",
     "static/media/RobotAssembledSideAngle.jpg": "/rgo3l.dev/static/media/RobotAssembledSideAngle.a9c9904edc60b5b88e5c.jpg",
     "static/media/Profile Picture.jpg": "/rgo3l.dev/static/media/Profile Picture.279b42ed62588ebc271d.jpg",
+    "static/media/MarchingBand.PNG": "/rgo3l.dev/static/media/MarchingBand.c82b0eeb5a55912ae71a.PNG",
     "static/media/Drone.jpg": "/rgo3l.dev/static/media/Drone.775eec9cb83447c547e8.jpg",
     "static/media/Beach.jpg": "/rgo3l.dev/static/media/Beach.fc1d4a7a2514887587ae.jpg",
     "static/media/V4_Opener.jpg": "/rgo3l.dev/static/media/V4_Opener.76b4d94fca6cdfd3b87e.jpg",
@@ -57,11 +58,11 @@
     "static/media/Top-Right.svg": "/rgo3l.dev/static/media/Top-Right.0e938dbba17b3bba8c6439b7311497de.svg",
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
-    "main.cfd8b0bf.css.map": "/rgo3l.dev/static/css/main.cfd8b0bf.css.map",
-    "main.bbc28f04.js.map": "/rgo3l.dev/static/js/main.bbc28f04.js.map"
+    "main.d6c286de.css.map": "/rgo3l.dev/static/css/main.d6c286de.css.map",
+    "main.8604f720.js.map": "/rgo3l.dev/static/js/main.8604f720.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfd8b0bf.css",
-    "static/js/main.bbc28f04.js"
+    "static/css/main.d6c286de.css",
+    "static/js/main.8604f720.js"
   ]
 }
