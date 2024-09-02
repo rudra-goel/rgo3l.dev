@@ -4,6 +4,9 @@ import Beach from "../Images/Beach.jpg"
 import Drone from "../Images/Drone.jpg"
 import Graduation from "../Images/Graduation.jpg"
 
+
+
+
 export default function ({ images }) {
 
     const [imageIndex, setImageIndex] = useState(0)

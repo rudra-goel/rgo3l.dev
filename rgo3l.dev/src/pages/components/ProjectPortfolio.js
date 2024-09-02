@@ -20,13 +20,23 @@ import Img9 from "../Images/rgo3l.png"
 import Img10 from "../Images/Static.png"
 
 import Img11 from "../Images/Tuner/BatteryPower.jpg" 
+import Img110 from "../Images/Tuner/Product.png"
+import Img111 from "../Images/Tuner/Tuner Schematic.png"
 import Img12 from "../Images/Car.jpg"
 
+import Img21 from "../Images/DiscoveryProjectImages/Assembly.png";
+import Img22 from "../Images/DiscoveryProjectImages/Schematic.png";
+import Img23 from "../Images/DiscoveryProjectImages/V1_Opener.png";
+import Img24 from "../Images/DiscoveryProjectImages/V2_Opener.png";
+import Img25 from "../Images/DiscoveryProjectImages/V3_Opener.png";
+import Img26 from "../Images/DiscoveryProjectImages/V4_Opener.jpg";
+
 export default function ProjectPortfolio() {
-  const [isClicked1, setIsClicked1] = useState(true)
+  const [isClicked1, setIsClicked1] = useState(false)
   const [isClicked2, setIsClicked2] = useState(false)
   const [isClicked3, setIsClicked3] = useState(false)
   const [isClicked4, setIsClicked4] = useState(false)
+  const [isClicked5, setIsClicked5] = useState(true)
 
 
 
@@ -34,8 +44,69 @@ export default function ProjectPortfolio() {
   return (
     <div className="project-portfolio-container">
       <div className="left-stationed-tile">
+        <div className="lst-left-border" onClick={() => {setIsClicked5(!isClicked5)}}>
+          ECE 1100 Discovery Project 
+          {
+            !isClicked5 ? 
+            <div className="pop-out-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+            :
+            <div className="pop-in-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+          }
+        </div>
+        <div className={ isClicked5 ? `active-content` : `inactive-content` }>
+        <div className='project-content-container'>
+            <div className="project-content">
+              <div className="project-title">
+                1100 Discovery Project
+              </div>
+
+
+              
+
+              <div className="project-description">
+
+                  After living with my roommate for a semester and being locked out way too many times, I decided to make a an automatic door opener. This project was directly 
+                  inspired by Varun Patel from <a href="https://www.bluehandcoding.com/" target="__blank"><span className="bold-reg-text">Blue Hand Coding</span></a>. 
+                  I added a small twist to his design by using the <span className="bold-reg-text"> Adafruit Biometric Sensor  </span> to let only me and my roommate in. 
+                  <br></br><br></br>
+                  This is still a major work in progress; I am currently on my 3rd full iteration. My first two failed because of weak motors *\_/* 
+                  But I have seen success with my electronics. My biometric sensor 
+                  <ul className="project-description-list">
+                    <li>Expose myself to campus makerspaces, <a href="https://hive.ece.gatech.edu/" target="__blank"><span className="bold-reg-text">The Hive</span></a></li>
+                    <li>Utilizing Stepper motors & their Respective Drivers</li>
+                    <li>Extremely iterative process for both proper power budgeting and gear ratios</li>
+                    <li>February 2024 - Present</li>
+                  </ul>
+                  <div className="skills-developed">
+                    <div className="skill-wrapper">
+                      Embedded Systems
+                    </div>
+                    <div className="skill-wrapper">
+                      Mechatronics
+                    </div>
+                    
+                  </div>
+              </div>
+              <div className="further-proj-info-link">
+              <a href="https://drive.google.com/drive/folders/1P0aZlLg1fVU2hS_mk4kBqOxoSB63m7Jk?usp=drive_link" target="__blank" 
+className="further-proj-info-link">Checkout Some Videos</a>
+              </div>
+            </div>
+            
+            <div className="project-slideshow">
+              <Slideshow images={[Img23, Img24, Img25, Img26, Img21, Img22]} />
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked1(!isClicked1)}}>
-          Rudimentary Tuner (In Progress)
+          Rudimentary Instrument Tuner 
           {
             !isClicked1 ? 
             <div className="pop-out-proj">
@@ -51,7 +122,7 @@ export default function ProjectPortfolio() {
         <div className='project-content-container'>
             <div className="project-content">
               <div className="project-title">
-                Rudimentary Tuner
+                A Real, Simple Tuner
               </div>
 
 
@@ -66,7 +137,7 @@ export default function ProjectPortfolio() {
                     <li>Designed embedded system from scratch with emphasis in simplicity</li>
                     <li>Introduction to Fourier Transforms, a foundation in Digital Signal Processing</li>
                     <li>Designed and manufactured housing unit</li>
-                    <li>November 2023 - Present</li>
+                    <li>November 2023 - December 2023</li>
                   </ul>
                   <div className="skills-developed">
                     <div className="skill-wrapper">
@@ -91,7 +162,7 @@ className="further-proj-info-link">Checkout Some Videos</a>
             </div>
             
             <div className="project-slideshow">
-              <Slideshow images={[Img11]} />
+              <Slideshow images={[Img110, Img11, Img111]} />
             </div>
           </div>
         </div>

@@ -21,6 +21,11 @@ import Img14 from "../Images/Robojackets Images/Motors.png"
 import Img15 from "../Images/Robojackets Images/Full Bot.png"
 import Img16 from "../Images/Robojackets Images/Exposed Bot.png"
 import Img17 from "../Images/Robojackets Images/PCB.png"
+import Img18 from "../Images/Robojackets Images/PCB.jpg";
+import Img19 from "../Images/Robojackets Images/RobotAssembledSideAngle.jpg";
+import Img20 from "../Images/Robojackets Images/RobotAssembledV1.jpg";
+
+
 
 export default function Experience() {
 
@@ -50,7 +55,7 @@ export default function Experience() {
         
     }
     const Robojackets ={
-        Position: "RoboWrestling Electrical Architect",
+        Position: "RoboWrestling",
         Date:"Current",
         Company:"GT RoboJackets",
         Link:"https://robojackets.org/",
@@ -75,12 +80,12 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[0]}` }>
                     <div className="slideshow-container">
-                        <Slideshow images={[Img15, Img12, Img13 , Img16, Img17]}/>
+                        <Slideshow images={[Img15, Img12, Img13 , Img16, Img17, Img18, Img19, Img20]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. 
                         I design the main controls and power distribution all onto one board. 
-                        Currently, our robot uses the <span className="bold-reg-text">Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor.</span> In addition to the Teensy 4.1, we utilize many other peripherals; consequently, my comprehension off datasheets has improved significantly.  
+                        Currently, our robot uses the <span className="bold-reg-text">Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor.</span> In addition to the Teensy 4.1, we utilize many other peripherals; consequently, my comprehension off data sheets has improved significantly.  
                         Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. 
                     </div>
                 </div>
