@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rgo3l.dev/static/css/main.d6c286de.css",
-    "main.js": "/rgo3l.dev/static/js/main.8604f720.js",
+    "main.js": "/rgo3l.dev/static/js/main.d8c1a83c.js",
     "static/media/Img3.png": "/rgo3l.dev/static/media/Img3.2792fcf94a0a62f5cc08.png",
     "static/media/Product.png": "/rgo3l.dev/static/media/Product.e1bced6715cbcbf9c4f1.png",
     "static/media/Img4.png": "/rgo3l.dev/static/media/Img4.cc29c1d61928c7bae38b.png",
@@ -16,10 +16,13 @@
     "static/media/V4_Opener.jpg": "/rgo3l.dev/static/media/V4_Opener.76b4d94fca6cdfd3b87e.jpg",
     "static/media/Img7.png": "/rgo3l.dev/static/media/Img7.82fd9093cfa06e3012ce.png",
     "static/media/Car.jpg": "/rgo3l.dev/static/media/Car.4325e22f3ad9f3428fd4.jpg",
+    "static/media/Img4.jpg": "/rgo3l.dev/static/media/Img4.f98aeb5291cd96a337cb.jpg",
     "static/media/Img5.png": "/rgo3l.dev/static/media/Img5.dff2d5acea052bb547cf.png",
     "static/media/Img9.png": "/rgo3l.dev/static/media/Img9.c1d1c074cfdf253f5f0e.png",
+    "static/media/Img3.jpg": "/rgo3l.dev/static/media/Img3.1456a413b34ff8dd8e46.jpg",
     "static/media/RobotAssembledV1.jpg": "/rgo3l.dev/static/media/RobotAssembledV1.de79d31c5eee8a816a41.jpg",
     "static/media/BatteryPower.jpg": "/rgo3l.dev/static/media/BatteryPower.ccc83d7a5f05c74c6ef9.jpg",
+    "static/media/Img5.jpg": "/rgo3l.dev/static/media/Img5.3e615eea509d2c3ec413.jpg",
     "static/media/PCB.jpg": "/rgo3l.dev/static/media/PCB.b071bb42a0cf04644af4.jpg",
     "static/media/Graduation.jpg": "/rgo3l.dev/static/media/Graduation.bd689452a988743bed90.jpg",
     "static/media/Assembly.png": "/rgo3l.dev/static/media/Assembly.417e5aec76f53132721c.png",
@@ -34,7 +37,9 @@
     "static/media/Tuner Schematic.png": "/rgo3l.dev/static/media/Tuner Schematic.7ec75dcf450c1135bbb2.png",
     "static/media/CircuitBoard.png": "/rgo3l.dev/static/media/CircuitBoard.de13dca9717fb0124c74.png",
     "static/media/Drone.png": "/rgo3l.dev/static/media/Drone.53723f84b4f049bb5565.png",
+    "static/media/Img1.jpg": "/rgo3l.dev/static/media/Img1.6f5820a30ed62591a4f1.jpg",
     "static/media/ControlBoard.png": "/rgo3l.dev/static/media/ControlBoard.819d9c1489509324ca4e.png",
+    "static/media/Img2.jpg": "/rgo3l.dev/static/media/Img2.daac2bd45e7f019630ec.jpg",
     "static/media/V3_Opener.png": "/rgo3l.dev/static/media/V3_Opener.788367cc8462f181f948.png",
     "static/media/rgo3l.png": "/rgo3l.dev/static/media/rgo3l.f423cd47ba398056cf8c.png",
     "static/media/Static.png": "/rgo3l.dev/static/media/Static.6f0ff2722a77fc199649.png",
@@ -59,10 +64,10 @@
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.d6c286de.css.map": "/rgo3l.dev/static/css/main.d6c286de.css.map",
-    "main.8604f720.js.map": "/rgo3l.dev/static/js/main.8604f720.js.map"
+    "main.d8c1a83c.js.map": "/rgo3l.dev/static/js/main.d8c1a83c.js.map"
   },
   "entrypoints": [
     "static/css/main.d6c286de.css",
-    "static/js/main.8604f720.js"
+    "static/js/main.d8c1a83c.js"
   ]
 }
