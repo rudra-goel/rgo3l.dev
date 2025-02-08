@@ -31,18 +31,76 @@ import Img24 from "../Images/DiscoveryProjectImages/V2_Opener.png";
 import Img25 from "../Images/DiscoveryProjectImages/V3_Opener.png";
 import Img26 from "../Images/DiscoveryProjectImages/V4_Opener.jpg";
 
+import Img27 from "../Images/CameraAlertSystem/Img1.jpg";
+import Img28 from "../Images/CameraAlertSystem/Img2.jpg";
+import Img29 from "../Images/CameraAlertSystem/Img3.jpg";
+import Img30 from "../Images/CameraAlertSystem/Img4.jpg";
+import Img31 from "../Images/CameraAlertSystem/Img5.jpg";
+
 export default function ProjectPortfolio() {
-  const [isClicked1, setIsClicked1] = useState(false)
-  const [isClicked2, setIsClicked2] = useState(false)
-  const [isClicked3, setIsClicked3] = useState(false)
-  const [isClicked4, setIsClicked4] = useState(false)
+  const [isClicked1, setIsClicked1] = useState(true)
+  const [isClicked2, setIsClicked2] = useState(true)
+  const [isClicked3, setIsClicked3] = useState(true)
+  const [isClicked4, setIsClicked4] = useState(true)
   const [isClicked5, setIsClicked5] = useState(true)
+  const [isClicked6, setIsClicked6] = useState(true)
 
 
 
 
   return (
     <div className="project-portfolio-container">
+      <div className="left-stationed-tile">
+        <div className="lst-left-border" onClick={() => {setIsClicked6(!isClicked6)}}>
+        A Live Alert System
+          {
+            !isClicked6 ? 
+            <div className="pop-out-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+            :
+            <div className="pop-in-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+          }
+        </div>
+        <div className={ isClicked6 ? `active-content` : `inactive-content` }>
+        <div className='project-content-container'>
+            <div className="project-content">
+              <div className="project-title">
+              A Live Alert System
+              </div>
+
+              <div className="project-description">
+                I work as a TA at the School of ECE's Senior Design Labs, but our parts shop is laid out a little weirdly. All the TA's sit behind a wall that separates them from the main foyer where people can enter.
+                <br></br><br></br><br></br>
+                Sometimes, students will come in needing help, but will leave since they don't see anyone in their immediate vicinity. I decided to make a <span className='bold-reg-text'>camera alert system that would notify us (TAs) when someone enters the shop.</span>
+                <br></br><br></br><br></br>
+
+                UPDATE: This had to be taken down because of GT's privacy policy for camera's within the lab. It has been replaced with a Passive Infrared Sensor (PIR) that detects motion.
+                  
+                  <ul className="project-description-list">
+                    <li>Utilize Python's OpenCV Library for real time image processing and object detection</li>
+                    <li>Embedded system developed with Raspberry Pi OS</li>
+                    <li>Had a lot of fun with Onshape *_*</li>
+
+                  </ul>
+                  <div className="skills-developed">
+                    <div className="skill-wrapper">
+                      Embedded Systems
+                    </div>
+                    
+                  </div>
+              </div>
+            </div>
+            
+            <div className="project-slideshow">
+              <Slideshow images={[Img29, Img30, Img31, Img28, Img27]} />
+            </div>
+          </div>
+        </div>
+        
+      </div>
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked5(!isClicked5)}}>
           ECE 1100 Discovery Project 
@@ -63,10 +121,6 @@ export default function ProjectPortfolio() {
               <div className="project-title">
                 1100 Discovery Project
               </div>
-
-
-              
-
               <div className="project-description">
 
                   After living with my roommate for a semester and being locked out way too many times, I decided to make a an automatic door opener. This project was directly 
@@ -76,10 +130,10 @@ export default function ProjectPortfolio() {
                   This is still a major work in progress; I am currently on my 3rd full iteration. My first two failed because of weak motors *\_/* 
                   But I have seen success with my electronics. My biometric sensor 
                   <ul className="project-description-list">
-                    <li>Expose myself to campus makerspaces, <a href="https://hive.ece.gatech.edu/" target="__blank"><span className="bold-reg-text">The Hive</span></a></li>
-                    <li>Utilizing Stepper motors & their Respective Drivers</li>
-                    <li>Extremely iterative process for both proper power budgeting and gear ratios</li>
-                    <li>February 2024 - Present</li>
+                    <li>Expose myself to a campus makerspace, <a href="https://hive.ece.gatech.edu/" target="__blank"><span className="bold-reg-text">The Hive</span></a></li>
+                    <li>Various precision-driven stepper motors</li>
+                    <li>Iterative processes for power budgeting and CAD</li>
+                    <li>February 2024</li>
                   </ul>
                   <div className="skills-developed">
                     <div className="skill-wrapper">
@@ -90,10 +144,6 @@ export default function ProjectPortfolio() {
                     </div>
                     
                   </div>
-              </div>
-              <div className="further-proj-info-link">
-              <a href="https://drive.google.com/drive/folders/1P0aZlLg1fVU2hS_mk4kBqOxoSB63m7Jk?usp=drive_link" target="__blank" 
-className="further-proj-info-link">Checkout Some Videos</a>
               </div>
             </div>
             
@@ -227,61 +277,6 @@ className="further-proj-info-link">Checkout Some Videos</a>
             
             <div className="project-slideshow">
               <Slideshow images={[Img1, Img2, Img3, Img4, Img5, Img6, Img7]} />
-            </div>
-          </div>
-
-        </div>
-        
-      </div>
-
-      <div className="left-stationed-tile">
-        <div className="lst-left-border" onClick={() => {setIsClicked3(!isClicked3)}}>
-          rgo3l.dev
-          {
-            !isClicked3 ? 
-            <div className="pop-out-proj">
-              <img src={DownArrow} alt="out-arrow" />
-            </div>
-            :
-            <div className="pop-in-proj">
-              <img src={DownArrow} alt="out-arrow" />
-            </div>
-          }
-        </div>
-        <div className={ isClicked3 ? `active-content` : `inactive-content` }>
-        <div className='project-content-container'>
-            <div className="project-content">
-              <div className="project-title">
-                rgo3l.dev
-              </div>
-
-              <div className="project-description">
-                What your on right now, Duh! I started version 1 of my personal portfolio website in December of 2023, deployed in January of the next year. 
-                As the footer mentions, I used React.js as my front end web framework and pure CSS to style each component. 
-                  <ul className="project-description-list">
-                    <li>Utilized foundations in React.js to build personal web portfolio</li>
-                    <li>Gained extensive knowledge about front-end design principles in CSS</li>
-                    <li>December 2023 - January 2024</li>
-                  </ul>
-                  <div className="skills-developed">
-                    <div className="skill-wrapper">
-                      React.js
-                    </div>
-                    <div className="skill-wrapper">
-                      CSS
-                    </div>
-                    <div className="skill-wrapper">
-                      Google Firebase
-                    </div>
-                  </div>
-              </div>
-              <div className="further-proj-info-link">
-                <a href="https://github.com/rudra-goel/rgo3l.dev" target="__blank" className="further-proj-info-link">Checkout The Github</a>
-              </div>
-            </div>
-            
-            <div className="project-slideshow">
-              <Slideshow images={[Img8, Img9, Img10]} />
             </div>
           </div>
 

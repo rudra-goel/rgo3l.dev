@@ -42,11 +42,12 @@ export default function Home() {
           <div id="experience" className="experience-container">
             <div className='experience-header'>Some Experiences I've Been Apart Of :-)</div>
             <Experience /> 
+            
             <div className="resume-link">
-              <a href="https://drive.google.com/drive/folders/1pHCjDcQ8l060mIrOqW_r2hfBqHDI48Fq?usp=sharing">
+              {/* <a href="https://drive.google.com/drive/folders/1pHCjDcQ8l060mIrOqW_r2hfBqHDI48Fq?usp=sharing">
                   View Full Resume
               </a>
-              <img className="resume-link-arrow"src={RightArrow} alt="Right Arrow" />
+              <img className="resume-link-arrow"src={RightArrow} alt="Right Arrow" /> */}
             </div>
           </div>
           
