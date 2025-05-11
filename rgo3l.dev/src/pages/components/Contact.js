@@ -52,8 +52,7 @@ export default function () {
                     
                 </div>
                 <div className="contact-subtext">
-                    <p>All messages will be forwarded to my email inbox.</p>
-                    <p>I'll try my best to reply as soon as possible!</p>
+                    <p>All messages go straight to my personal inbox :-)</p>
                 </div>
             </div>
         </div>

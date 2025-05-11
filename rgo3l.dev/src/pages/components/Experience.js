@@ -29,18 +29,27 @@ import Img20 from "../Images/Robojackets Images/RobotAssembledV1.jpg";
 
 export default function Experience() {
 
-    const [isCardActive, setIsCardActive] = useState([true, false, false])
+    const [isCardActive, setIsCardActive] = useState([true, false, false, false])
+    
+    const Robojackets ={
+        Position: "Robowrestling Electrical Subteam Lead",
+        Date:"Current",
+        Company:"GT RoboJackets",
+        Link:"https://robojackets.org/",
+        Location:"Georgia Tech",
+        Description:"Led electrical system design for autonomous and remote controlled sumo wrestling robots in 500g division ",
+        Skills:["KiCAD", "Embedded Systems" , "Bare Metal C Programming", "RF PCB Manufacturing", "Autonomous Controls"],
 
+    }
 
     const NajafiLab ={
-        Position: "Undergraduate Engineering Intern",
+        Position: "Undergraduate Research Assistant",
         Date:"Fall 2023",
         Company:"Najafi Lab",
         Link:"https://www.najafilab.org/home",
         Location:"Atlanta, GA",
         Description:"I made custom circuits for mice stationed in LickOmeter rigs, designed and 3D printed parts to interface with lab instruments to aid researchers, and implemented real-time filtering algorithms to mitigate perturbations in imaging data .",
-        Skills:["Solidworks", "3D Printing", "MATLAB", "Python", "Circuit Analysis", "Xilinx FPGAs"],
-        FooterDescription: "I aided postdocs by prototyping neural imaging experiments to understand prefrontal cortex decision making to treat schizophrenia. Developed and implemented high-performance digital signal processing (DSP) algorithms in Verilog for FPGA platforms, including real-time analysis of random signals, low-voltage amplifier on Xilinx FPGA, and data acquisition systems.Reduced light pollution in 2P scope by designing a 3D printed shield on 2P scope reducing error in day-to-day experiments."
+        Skills:[ "Resin Printing", "MATLAB", "Python", "Circuit Analysis", "Xilinx System-On-Chips (SoC)"],
         
     }
     const DART ={
@@ -51,19 +60,17 @@ export default function Experience() {
         Location:"DeVault, PA",
         Description:"Wrote VBA and Python scripts to consolidate and aggregate data from SQL Servers into graphical representations for project analysts.",
         Skills:["Microsoft Visual Basic", "Python", "MS Office", "Sharepoint", "SQL Server"],
-        FooterDescription: "I worked closely with a team of 4 and helped them with various tasks from updating sharepoint pages to compiling data. The bulk of my internship focussed on creating a data pipeline between the company's SQL server to their sharepoint page for different departments to see. My solution focussed on a combination of Visual Basic and Python to retrieve and organize the data.  "
-        
     }
-    const Robojackets ={
-        Position: "RoboWrestling Electrical STL",
-        Date:"Current",
-        Company:"GT RoboJackets",
-        Link:"https://robojackets.org/",
-        Location:"Georgia Tech",
-        Description:"Work closely with a team of 4 to create a 500g robot from scratch. I focus on the ground-up build of the control and power board for our robot. ",
-        Skills:["KiCAD", "SolidWorks", "Embedded Systems" , "C Programming", "PCB Manufacturing & Soldering", "Robotics"],
-        FooterDescription: "As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. I design the main controls and power distribution all onto one board. Currently, our robot uses the Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor. Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. "
 
+    const ORS ={
+        Position: "Opportunity Research Scholar",
+        Date:"Fall 24 - Spring 25",
+        Company:"Mobile Advanced Research @ GT (MARGA) Lab",
+        Link:"",
+        Location:"Atlanta, GA",
+        Description:"How can we manipulate the near-field effects of acoustic waves to beamform with 3D-printed materials? These are metasurfaces and can be used to create a Personal Acoustic Spaces (PAS) in large auditoriums or small home stereo systems.",
+        Skills:["COMSOL Multiphysics", "Literature/Peer Reviews", "Academic Research", "Conference Submission"],
+        
     }
   return (
     <div className="experience-tile-container">
@@ -73,7 +80,7 @@ export default function Experience() {
                 <div 
                     className="accordian_label" 
                     onClick={() => {
-                        setIsCardActive([!isCardActive[0], false, false]);
+                        setIsCardActive([!isCardActive[0], false, false, false]);
                     }}>
                     <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
                     More Info
@@ -83,10 +90,43 @@ export default function Experience() {
                         <Slideshow images={[Img15, Img12, Img13 , Img16, Img17, Img18, Img19, Img20]}/>
                     </div>
                     <div className="experience-footer-more-info">
-                        As the team's electrical architect, I attempt to integrate all desires functionalities of our robot into our control board. 
-                        I design the main controls and power distribution all onto one board. 
-                        Currently, our robot uses the <span className="bold-reg-text">Teensy 4.1 development board equipped with a ARM Cortex-M7 microprocessor.</span> In addition to the Teensy 4.1, we utilize many other peripherals; consequently, my comprehension off data sheets has improved significantly.  
-                        Throughout this experience, I have gained a deep understanding in power budgeting and embedded systems design with a strong interest to continue in the future. 
+                        Sumo robotics is the perfect combination of meticulous design and destructive matches. Essentially two bots compete to push each other off the steel platform (Dohyo) autonomously.
+                        <br></br><br></br>
+                        You can check out our 2025 in-house comp right here! LINK
+                        <br></br><br></br>
+                        We create custom PCBs capable of outputting 50A to power our drivetrains and integrate microprocessors with in-line serial programmers. We use a broad range of MCUs, but we especially like the Teensy 4.1 from PRJC because of its high frequency processing and vast GPIO array. 
+                        <br></br><br></br>
+                        As electrical lead, my goal is to expand our PCB capabilities to have RF waveguides and encourage new members to grow through experiential learning. Our designs fail sometimes, but that just means we're learning all the time. (its cheesy but true lmao)
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div className="experience-tile">
+            <ExperienceTile data={ORS} />
+            <div className={`experience-footer`}>
+                <div 
+                    className="accordian_label" 
+                    onClick={() => {
+                        setIsCardActive([false, !isCardActive[1], false, false]);
+                    }}>
+                    <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
+                    More Info
+                </div>
+                <div className={ `experience-active-${isCardActive[1]}` }>
+                    <div className="slideshow-container">
+                        <Slideshow images={[]}/>
+                    </div>
+                    <div className="experience-footer-more-info">
+                        Personal Acoustic Spaces are a novel concept of a spatial zone with maximum acoustic energy - essentially an area where sound is the loudes without pointing spealers in that direction. 
+                        <br></br><br></br><br></br>
+                        We used a 3D-printed labyrinthine type metasurface in the shape of a brick to modulate sound waves coming out of a speaker to beamform in both azimuth and elevation. These bricks can be easily abutted to a speaker to beamform and thus create a personal acoustic zone. 
+
+                        <br></br><br></br><br></br>
+                        Check out our paper here: LINK
+
+                        <br></br><br></br><br></br>
+                        Poster: LINK
                     </div>
                 </div>
             </div>
@@ -98,12 +138,12 @@ export default function Experience() {
                 <div 
                     className="accordian_label" 
                     onClick={() => {
-                        setIsCardActive([false, !isCardActive[1], false]);
+                        setIsCardActive([false, false, !isCardActive[2], false]);
                     }}>
                     <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
                     More Info
                 </div>
-                <div className={ `experience-active-${isCardActive[1]}` }>
+                <div className={ `experience-active-${isCardActive[2]}` }>
                     <div className="slideshow-container">
                         <Slideshow images={[Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10, Img11]}/>
                     </div>
@@ -122,12 +162,12 @@ export default function Experience() {
                 <div 
                     className="accordian_label" 
                     onClick={() => {
-                        setIsCardActive([false, false, !isCardActive[2]]);
+                        setIsCardActive([false, false, false, !isCardActive[3]]);
                     }}>
                     <img className="expand-bar" src={Bar} alt="Down Arrow" width="100%"/>
                     More Info
                 </div>
-                <div className={ `experience-active-${isCardActive[2]}-no-images` }>
+                <div className={ `experience-active-${isCardActive[3]}-no-images` }>
                     <div className="experience-footer-more-info">
                         I worked closely with a team of 4 and helped them with various tasks from updating sharepoint pages to compiling data. 
                         The bulk of my internship focussed on creating a data pipeline between the company's SQL server to their sharepoint page for different departments to see. 

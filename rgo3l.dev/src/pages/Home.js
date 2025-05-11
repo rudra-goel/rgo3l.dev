@@ -40,7 +40,7 @@ export default function Home() {
           </div>
 
           <div id="experience" className="experience-container">
-            <div className='experience-header'>Some Experiences I've Been Apart Of :-)</div>
+            <div className='experience-header'>Here Are Some Experiences I've Been Apart Of</div>
             <Experience /> 
             
             <div className="resume-link">

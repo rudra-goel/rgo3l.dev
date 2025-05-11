@@ -44,12 +44,77 @@ export default function ProjectPortfolio() {
   const [isClicked4, setIsClicked4] = useState(true)
   const [isClicked5, setIsClicked5] = useState(true)
   const [isClicked6, setIsClicked6] = useState(true)
+  const [isClicked7, setIsClicked7] = useState(true)
 
 
 
 
   return (
     <div className="project-portfolio-container">
+      <div className="left-stationed-tile">
+        <div className="lst-left-border" onClick={() => {setIsClicked7(!isClicked7)}}>
+        16-bit Programmable Computer
+          {
+            !isClicked7 ? 
+            <div className="pop-out-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+            :
+            <div className="pop-in-proj">
+              <img src={DownArrow} alt="out-arrow" />
+            </div>
+          }
+        </div>
+        <div className={ isClicked7 ? `active-content` : `inactive-content` }>
+        <div className='project-content-container'>
+            <div className="project-content">
+              <div className="project-title">
+              16-bit Synchronous Programmable Computer
+              </div>
+
+              <div className="project-description">
+                This was a culminating project for my VLSI & Digital Design class. 
+
+                <br></br><br></br><br></br>
+
+                I built a computer that can perfrom basic arithmetic on two 16-bit numbers via a programmable bit to toggle between addition and subtraction using two's complement. 
+
+                <br></br><br></br><br></br>
+
+                This was designed in Cadence Virtuoso under the FreePDK 45nm technology node provided by NCSU. I took a modular approach when designing this by first creating 1-bit full adders, then 4-bit ripple carry adders (RCAs), and finally to 16-bit RCAs. Likewise for memory units starting from D-Flip-Flops to Register Files.
+
+                <br></br><br></br><br></br>
+                View my full report here: LINK
+
+                
+                  <ul className="project-description-list">
+                    <li>Optimized interconnect thickeness and layout geometries for design speedup</li>
+                    <li>Performed DFF characterization via setup & hold time analysis</li>
+                    <li>Implemented vector file simulations for parameters affecting metastability issues </li>
+                    <li>Utilized Python to automate design layout within 50 microns</li>
+                  </ul>
+                  <div className="skills-developed">
+                    <div className="skill-wrapper">
+                      Cadence Virtuoso
+                    </div>
+                    <div className="skill-wrapper">
+                      SKILL Scripting
+                    </div>
+                    <div className="skill-wrapper">
+                      Python Layout Automation 
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+            <div className="project-slideshow">
+              <Slideshow images={[]} />
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked6(!isClicked6)}}>
         A Live Alert System
@@ -72,7 +137,7 @@ export default function ProjectPortfolio() {
               </div>
 
               <div className="project-description">
-                I work as a TA at the School of ECE's Senior Design Labs, but our parts shop is laid out a little weirdly. All the TA's sit behind a wall that separates them from the main foyer where people can enter.
+                I work as a TA at the School of ECE's Senior Design Labs, but our parts shop has a weird floorplan. All the TA's sit behind a wall that separates them from the main foyer where people enter.
                 <br></br><br></br><br></br>
                 Sometimes, students will come in needing help, but will leave since they don't see anyone in their immediate vicinity. I decided to make a <span className='bold-reg-text'>camera alert system that would notify us (TAs) when someone enters the shop.</span>
                 <br></br><br></br><br></br>
@@ -101,6 +166,7 @@ export default function ProjectPortfolio() {
         </div>
         
       </div>
+      
       <div className="left-stationed-tile">
         <div className="lst-left-border" onClick={() => {setIsClicked5(!isClicked5)}}>
           ECE 1100 Discovery Project 
