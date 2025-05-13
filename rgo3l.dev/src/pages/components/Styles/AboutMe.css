@@ -29,11 +29,19 @@
 
 .bold-reg-text {
   font-weight: 900;
+  font-size: 1.2em;
 }
 .about-me-italics {
   font-style: italic;
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 1.2em;
+}
 
+.link {
+  font-weight: 900;
+  font-size: 1.1em;
+  color: purple;
+  text-decoration: underline;
 }
 
 .about-me-images {
@@ -154,8 +162,7 @@
 }
 .about-me-italics {
   font-style: italic;
-  font-weight: 600;
-
+  font-weight: 900;
 }
 
 .about-me-images {

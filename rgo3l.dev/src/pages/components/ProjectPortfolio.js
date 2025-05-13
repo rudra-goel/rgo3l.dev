@@ -37,6 +37,12 @@ import Img29 from "../Images/CameraAlertSystem/Img3.jpg";
 import Img30 from "../Images/CameraAlertSystem/Img4.jpg";
 import Img31 from "../Images/CameraAlertSystem/Img5.jpg";
 
+
+import Img32 from "../Images/16bitComp/compSchematic.png";
+import Img33 from "../Images/16bitComp/regfile.png";
+import Img34 from "../Images/16bitComp/waveform.png";
+import Img35 from "../Images/16bitComp/layout.png";
+
 export default function ProjectPortfolio() {
   const [isClicked1, setIsClicked1] = useState(true)
   const [isClicked2, setIsClicked2] = useState(true)
@@ -73,7 +79,7 @@ export default function ProjectPortfolio() {
               </div>
 
               <div className="project-description">
-                This was a culminating project for my VLSI & Digital Design class. 
+                This was a culminating project for my Intro to VLSI & Digital Design course. 
 
                 <br></br><br></br><br></br>
 
@@ -83,15 +89,13 @@ export default function ProjectPortfolio() {
 
                 This was designed in Cadence Virtuoso under the FreePDK 45nm technology node provided by NCSU. I took a modular approach when designing this by first creating 1-bit full adders, then 4-bit ripple carry adders (RCAs), and finally to 16-bit RCAs. Likewise for memory units starting from D-Flip-Flops to Register Files.
 
-                <br></br><br></br><br></br>
-                View my full report here: LINK
 
-                
                   <ul className="project-description-list">
                     <li>Optimized interconnect thickeness and layout geometries for design speedup</li>
                     <li>Performed DFF characterization via setup & hold time analysis</li>
                     <li>Implemented vector file simulations for parameters affecting metastability issues </li>
                     <li>Utilized Python to automate design layout within 50 microns</li>
+                    <li>Physical Design (PD) iteration process to ensure DRC and LVS run clean</li>
                   </ul>
                   <div className="skills-developed">
                     <div className="skill-wrapper">
@@ -108,7 +112,7 @@ export default function ProjectPortfolio() {
             </div>
             
             <div className="project-slideshow">
-              <Slideshow images={[]} />
+              <Slideshow isProject={true} images={[Img32, Img33, Img34, Img35]} />
             </div>
           </div>
         </div>

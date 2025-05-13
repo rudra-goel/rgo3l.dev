@@ -19,15 +19,32 @@ export default function AboutMe() {
     <div className="about-me-container">
       <div className="bio-and-image">
         <div className="bio">
-          Hello and thank you for visiting my website! My name is <span className="bold-reg-text">Rudra Goel</span>, and I am a third year <span className="bold-reg-text">Computer Engineering Student @ Georgia Tech</span> from Aurora, CO. Back in 2017, I took my first shot at electronics and got my hands down and dirty with a tiny Arduino Uno starter kit. Ever since then, I've been stumbling upon more and more information about how our computers even work. 
+          
+          
+          Hello and thank you for visiting my portfolio! My name is <span className="bold-reg-text">Rudra Goel</span>, and I am in my undergrad studying <span className="bold-reg-text">Computer Engineering @ Georgia Tech</span> from Aurora, CO. Back in 2017, I took my first shot at electronics and got my hands dirty with an  Arduino Uno starter kit. I've grown very passionate about embedded systems ever since. 
+          
+          
           <br></br><br></br><br></br>
-          I find it hard to believe that all the intense processing in a device is because of a small chunk of silicon. Like cmon, who's going to believe that, pff? That's why my goal one day is<span className="about-me-italics"> to design computer chips</span> But that's easier said than done -_- 
+          My goal one day is to <span className="bold-reg-text">Design Computer Chips</span>
           <br></br><br></br><br></br>
-          Aside from just taking some VLSI courses at my school, I want to get involved in extracurriculars like <a href="https://siliconjackets.gt/" target="__blank"><span className="bold-reg-text">SiliconJackets</span></a> and <span className="bold-reg-text">research in digital design. </span>
+          
+          I am involved in <span className="bold-reg-text">Competitive Robotics</span> and research in <span className="bold-reg-text">ASIC Design & HPC</span>.
+
           <br></br><br></br><br></br>
-          I also want to climb every <a href="https://siliconjackets.gt/" target="__blank"><span className="bold-reg-text">14er in Colorado</span></a> by the time I'm 30. 
+          I also want to climb every <a href="https://en.wikipedia.org/wiki/List_of_Colorado_fourteeners" target="__blank"><span className="link">14er in Colorado</span></a> before I turn 30. 
           <br></br><br></br><br></br>
-          In my free time, you'll most likely find me at <a href="https://siliconjackets.gt/" target="__blank"><span className="bold-reg-text">The Hive</span></a> or in <span className="bold-reg-text">Marching Band or Robowrestling</span> or <span className="bold-reg-text">binging HBO</span>. I could also be stuck playing a really aggressive <span className="bold-reg-text">Plants vs Zombies level</span>.  
+
+
+          I like being a Master Peer Instructor at the <a href="https://hive.ece.gatech.edu/" target="__blank"><span className="link">The Hive</span></a> 
+          
+          <br></br><br></br><br></br>
+
+          I also like playing my trombone in <span className="bold-reg-text">Marching Band</span> and being a member of <a href="https://robojackets.org/teams/robowrestling/" target="__blank"><span className="link">Robowrestling</span></a>. 
+          
+          <br></br><br></br><br></br>
+
+          I like camping, hiking, and spending time with family/friends :-)
+
         </div>
         <div className="bio-svg-image">
           <img src={Duck} alt="Beach"  height="300px" width="auto"/>

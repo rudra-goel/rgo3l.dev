@@ -24,6 +24,7 @@ export default function Home() {
 
   return (
     <div className="home-container">
+
         <div className="static-name">
           <StaticName scrollFunction={scroll} />
         </div>
@@ -40,7 +41,7 @@ export default function Home() {
           </div>
 
           <div id="experience" className="experience-container">
-            <div className='experience-header'>Here Are Some Experiences I've Been Apart Of</div>
+            <div className='experience-header'>Experiences</div>
             <Experience /> 
             
             <div className="resume-link">
@@ -52,7 +53,7 @@ export default function Home() {
           </div>
           
           <div id="project-portfolio" className="project-portfolio">
-            <div className='projects-header'>Cool Projects</div>
+            <div className='projects-header'>Projects</div>
             <ProjectPortfolio />
 
           </div>

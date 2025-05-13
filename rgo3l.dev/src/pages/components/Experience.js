@@ -16,15 +16,26 @@ import Img10 from "../Images/Najafi Lab Images/Img10.png"
 import Img11 from "../Images/Najafi Lab Images/Img11.png"
 
 import Img12 from "../Images/Robojackets Images/Schematic-Full.png"
-import Img13 from "../Images/Robojackets Images/Converter.png"
-import Img14 from "../Images/Robojackets Images/Motors.png"
-import Img15 from "../Images/Robojackets Images/Full Bot.png"
-import Img16 from "../Images/Robojackets Images/Exposed Bot.png"
+import Img13 from "../Images/Robojackets Images/joei_crown.png"
+import Img14 from "../Images/Robojackets Images/all_bots.png"
 import Img17 from "../Images/Robojackets Images/PCB.png"
 import Img18 from "../Images/Robojackets Images/PCB.jpg";
 import Img19 from "../Images/Robojackets Images/RobotAssembledSideAngle.jpg";
 import Img20 from "../Images/Robojackets Images/RobotAssembledV1.jpg";
 
+
+import Img21 from "../Images/ORS/cad.png";
+import Img22 from "../Images/ORS/idea.png";
+import Img23 from "../Images/ORS/arrows.png";
+import Img24 from "../Images/ORS/sim.png";
+import Img25 from "../Images/ORS/8_cell_ms.png";
+import Img26 from "../Images/ORS/16_cell_ms.png";
+import Img27 from "../Images/ORS/setup.png";
+import Img28 from "../Images/ORS/experiment_inside.png";
+import Img29 from "../Images/ORS/team_poster.png";
+
+import ors_poster from "../../ors_poster.pdf"
+import ors_paper from "../../ors_paper.pdf"
 
 
 export default function Experience() {
@@ -66,7 +77,7 @@ export default function Experience() {
         Position: "Opportunity Research Scholar",
         Date:"Fall 24 - Spring 25",
         Company:"Mobile Advanced Research @ GT (MARGA) Lab",
-        Link:"",
+        Link:"https://margalab.ece.gatech.edu/people.html",
         Location:"Atlanta, GA",
         Description:"How can we manipulate the near-field effects of acoustic waves to beamform with 3D-printed materials? These are metasurfaces and can be used to create a Personal Acoustic Spaces (PAS) in large auditoriums or small home stereo systems.",
         Skills:["COMSOL Multiphysics", "Literature/Peer Reviews", "Academic Research", "Conference Submission"],
@@ -87,12 +98,12 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[0]}` }>
                     <div className="slideshow-container">
-                        <Slideshow images={[Img15, Img12, Img13 , Img16, Img17, Img18, Img19, Img20]}/>
+                        <Slideshow images={[Img13, Img14, Img12 , Img17, Img18, Img19, Img20]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         Sumo robotics is the perfect combination of meticulous design and destructive matches. Essentially two bots compete to push each other off the steel platform (Dohyo) autonomously.
                         <br></br><br></br>
-                        You can check out our 2025 in-house comp right here! LINK
+                        Check out our 2025 in-house comp <a href="https://www.youtube.com/watch?v=2dVwJ1jmw80" target="__blank"><span className="link">here</span></a>
                         <br></br><br></br>
                         We create custom PCBs capable of outputting 50A to power our drivetrains and integrate microprocessors with in-line serial programmers. We use a broad range of MCUs, but we especially like the Teensy 4.1 from PRJC because of its high frequency processing and vast GPIO array. 
                         <br></br><br></br>
@@ -115,7 +126,7 @@ export default function Experience() {
                 </div>
                 <div className={ `experience-active-${isCardActive[1]}` }>
                     <div className="slideshow-container">
-                        <Slideshow images={[]}/>
+                        <Slideshow images={[Img21, Img22, Img23,Img24,Img25,Img26,Img27,Img28,Img29]}/>
                     </div>
                     <div className="experience-footer-more-info">
                         Personal Acoustic Spaces are a novel concept of a spatial zone with maximum acoustic energy - essentially an area where sound is the loudes without pointing spealers in that direction. 
@@ -123,10 +134,10 @@ export default function Experience() {
                         We used a 3D-printed labyrinthine type metasurface in the shape of a brick to modulate sound waves coming out of a speaker to beamform in both azimuth and elevation. These bricks can be easily abutted to a speaker to beamform and thus create a personal acoustic zone. 
 
                         <br></br><br></br><br></br>
-                        Check out our paper here: LINK
+                        <a href={ors_paper} target="__blank"><span className="link">Paper</span></a>
 
                         <br></br><br></br><br></br>
-                        Poster: LINK
+                        <a href={ors_poster} target="__blank"><span className="link">Poster</span></a>
                     </div>
                 </div>
             </div>

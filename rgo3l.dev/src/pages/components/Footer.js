@@ -6,14 +6,14 @@ export default function
     <div className="footer-container">
         <p>
         
-            I use 
+            I used
             <a className="footer-a" target="__blank"href="https://react.dev/"> React.js </a> 
-            as this website's static front-end framework and A LOT of CSS to make it look undoubtedly pretty ¯\_(ツ)_/¯ Thank you for visiting.
+            to make this website ¯\_(ツ)_/¯ Thank you for visiting.
         
         </p>
         <div className="footer-name-tm">
             <img src={Copyright} alt="cprght" className="copyright"/>
-            <p>Rudra Goel 2025</p>
+            <p>RG 2025</p>
         </div>
     </div>
   )

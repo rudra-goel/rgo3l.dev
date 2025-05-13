@@ -7,7 +7,7 @@ import Graduation from "../Images/Graduation.jpg"
 
 
 
-export default function ({ images }) {
+export default function ({ images, isProject }) {
 
     const [imageIndex, setImageIndex] = useState(0)
 
@@ -35,7 +35,7 @@ export default function ({ images }) {
                 images.map((image, i) => {
                     if (i==imageIndex){
                         return (
-                            <img className="slideshow-image" src={image} alt="Project-image" />
+                            <img className={isProject ? "slideshow-image-project" : "slideshow-image"} src={image} alt="Project-image" />
                         )
                     }
                 })

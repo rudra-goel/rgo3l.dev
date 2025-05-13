@@ -17,7 +17,7 @@
 
 .home-container {
     display: grid;
-    grid-template-columns: 1fr 3fr; /* 25% and remaining space */
+    grid-template-columns: 1fr 5fr;
     grid-gap: 30px; /* Adjust as needed for spacing */
     height: 100vh;
     background-color: var(--pickled-bluewood);
@@ -41,6 +41,8 @@ label:hover {
     display: grid;
     scroll-behavior: smooth;
 }
+
+
 @media screen and (min-width:1391px){
    
     .dynamic-content {
