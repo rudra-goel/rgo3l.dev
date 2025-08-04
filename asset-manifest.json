@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rgo3l.dev/static/css/main.46ceb318.css",
-    "main.js": "/rgo3l.dev/static/js/main.793d48df.js",
+    "main.js": "/rgo3l.dev/static/js/main.85ade81f.js",
     "static/media/team_poster.png": "/rgo3l.dev/static/media/team_poster.5c14f983e94d38d355dc.png",
     "static/media/experiment_inside.png": "/rgo3l.dev/static/media/experiment_inside.b473a2425c22088b1f7e.png",
     "static/media/16_cell_ms.png": "/rgo3l.dev/static/media/16_cell_ms.88890f0b43af7a92f181.png",
@@ -38,6 +38,7 @@
     "static/media/arrows.png": "/rgo3l.dev/static/media/arrows.32eb959278eec8dfe043.png",
     "static/media/PCB.jpg": "/rgo3l.dev/static/media/PCB.b071bb42a0cf04644af4.jpg",
     "static/media/Graduation.jpg": "/rgo3l.dev/static/media/Graduation.bd689452a988743bed90.jpg",
+    "static/media/Circle.gif": "/rgo3l.dev/static/media/Circle.3121642d6e9de4a66b5c.gif",
     "static/media/Assembly.png": "/rgo3l.dev/static/media/Assembly.417e5aec76f53132721c.png",
     "static/media/Flow.png": "/rgo3l.dev/static/media/Flow.741fa5d9df608890d302.png",
     "static/media/Img11.png": "/rgo3l.dev/static/media/Img11.1ffcb38ab4f10bb2d042.png",
@@ -61,6 +62,9 @@
     "static/media/TopFlow.png": "/rgo3l.dev/static/media/TopFlow.c63914a0e11a5033ba00.png",
     "static/media/compSchematic.png": "/rgo3l.dev/static/media/compSchematic.9d530a3184a2d8eb64f7.png",
     "static/media/regfile.png": "/rgo3l.dev/static/media/regfile.758476d5f5209c80597b.png",
+    "static/media/Diagram.jpg": "/rgo3l.dev/static/media/Diagram.c14f72bdce0c7e2134de.jpg",
+    "static/media/Arch.jpg": "/rgo3l.dev/static/media/Arch.d13b102c48bc6cb7538a.jpg",
+    "static/media/CNN_Model.jpg": "/rgo3l.dev/static/media/CNN_Model.0ff479093eb12ce8b498.jpg",
     "static/media/Design.png": "/rgo3l.dev/static/media/Design.7a42d027231220a95609.png",
     "static/media/Fireworks.svg": "/rgo3l.dev/static/media/Fireworks.ac3dea21559e7ea0010fc8a6dab67620.svg",
     "static/media/Contact-Image.svg": "/rgo3l.dev/static/media/Contact-Image.a876f6e9bd505043df165a7311754497.svg",
@@ -77,10 +81,10 @@
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.46ceb318.css.map": "/rgo3l.dev/static/css/main.46ceb318.css.map",
-    "main.793d48df.js.map": "/rgo3l.dev/static/js/main.793d48df.js.map"
+    "main.85ade81f.js.map": "/rgo3l.dev/static/js/main.85ade81f.js.map"
   },
   "entrypoints": [
     "static/css/main.46ceb318.css",
-    "static/js/main.793d48df.js"
+    "static/js/main.85ade81f.js"
   ]
 }
