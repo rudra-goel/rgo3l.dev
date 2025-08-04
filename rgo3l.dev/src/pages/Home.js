@@ -40,6 +40,12 @@ export default function Home() {
             <AboutMe />
           </div>
 
+          <div id="project-portfolio" className="project-portfolio">
+            <div className='projects-header'>Projects</div>
+            <ProjectPortfolio />
+
+          </div>
+
           <div id="experience" className="experience-container">
             <div className='experience-header'>Experiences</div>
             <Experience /> 
@@ -52,11 +58,7 @@ export default function Home() {
             </div>
           </div>
           
-          <div id="project-portfolio" className="project-portfolio">
-            <div className='projects-header'>Projects</div>
-            <ProjectPortfolio />
-
-          </div>
+          
           <div id="contact" className="contact-container">
             <Contact />
           </div>

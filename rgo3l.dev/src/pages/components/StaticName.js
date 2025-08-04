@@ -47,11 +47,11 @@ export default function StaticName({ scrollFunction }) {
                 <div className="toc-page" onClick={() => {scrollFunction("about-me")}} >
                   About Me
                 </div>
-                <div className="toc-page" onClick={() => {scrollFunction("experience")}} >
-                  My Experience
-                </div>
                 <div className="toc-page" onClick={() => {scrollFunction("project-portfolio")}} >
                   Projects
+                </div>
+                <div className="toc-page" onClick={() => {scrollFunction("experience")}} >
+                  My Experience
                 </div>
                 <div className="toc-page" onClick={() => {scrollFunction("contact")}} >
                   Reach out

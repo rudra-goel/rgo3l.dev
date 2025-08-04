@@ -7,6 +7,8 @@ import Beach from "../Images/Beach.jpg"
 import Graduation from "../Images/Graduation.jpg"
 import Math from "../Images/Math.svg"
 import Duck from "../Images/Duck.svg"
+import Yawn from "../Images/Yawn.JPG"
+import CowFeed from "../Images/CowFeed.jpg"
 import Playing from "../Images/Playing.jpg"
 import MarchingBand from "../Images/MarchingBand.PNG"
 
@@ -15,17 +17,29 @@ import DownArrow from "../Images/Down Arrow.svg"
 
 
 export default function AboutMe() {
+  // Bank of images for the scrolling banner
+  const bannerImages = [
+    { src: MarchingBand, alt: "Marching Band" },
+    { src: Pfp, alt: "Profile Picture" },
+    { src: Drone, alt: "Drone" },
+    { src: Yawn, alt: "Yawn" },
+    { src: CowFeed, alt: "CowFeed" },
+    
+    // Duplicate the images for seamless loop
+    { src: MarchingBand, alt: "Marching Band" },
+    { src: Pfp, alt: "Profile Picture" },
+    { src: Drone, alt: "Drone" },
+    { src: Yawn, alt: "Yawn" },
+    { src: CowFeed, alt: "CowFeed" },
+  ];
+
   return (
     <div className="about-me-container">
       <div className="bio-and-image">
         <div className="bio">
-          
-          
-          Hello and thank you for visiting my portfolio! My name is <span className="bold-reg-text">Rudra Goel</span>, and I am in my undergrad studying <span className="bold-reg-text">Computer Engineering @ Georgia Tech</span> from Aurora, CO. Back in 2017, I took my first shot at electronics and got my hands dirty with an  Arduino Uno starter kit. I've grown very passionate about embedded systems ever since. 
-          
-          
+          Hello and thanks for visiting my portfolio. My name is <span className="bold-reg-text">Rudra Goel</span>, and I am studying <span className="bold-reg-text">Computer Engineering @ Georgia Tech</span> from Aurora, CO. Back in 2017, I took my first shot at electronics and got my hands dirty with an  Arduino Uno starter kit. I've grown very passionate about embedded systems ever since.
           <br></br><br></br><br></br>
-          My goal one day is to <span className="bold-reg-text">Design Computer Chips</span>
+          I like to <span className="bold-reg-text">Design Computer Chips. </span>I want to do this in the future, and teach others about this amazing field.
           <br></br><br></br><br></br>
           
           I am involved in <span className="bold-reg-text">Competitive Robotics</span> and research in <span className="bold-reg-text">ASIC Design & HPC</span>.
@@ -39,7 +53,7 @@ export default function AboutMe() {
           
           <br></br><br></br><br></br>
 
-          I also like playing my trombone in <span className="bold-reg-text">Marching Band</span> and being a member of <a href="https://robojackets.org/teams/robowrestling/" target="__blank"><span className="link">Robowrestling</span></a>. 
+          I also like playing my trombone in <span className="bold-reg-text">Marching Band</span> and being an Electrical Lead of <a href="https://robojackets.org/teams/robowrestling/" target="__blank"><span className="link">Robowrestling</span></a>. 
           
           <br></br><br></br><br></br>
 
@@ -47,21 +61,19 @@ export default function AboutMe() {
 
         </div>
         <div className="bio-svg-image">
-          <img src={Duck} alt="Beach"  height="300px" width="auto"/>
+          <img src={Duck} alt="Duck"  height="300px" width="auto"/>
         </div>
       </div>
+      
       <div className="about-me-images">
-        <div className="img-container-abt-me">
-          <img src={Beach} className="fadeInLeft" alt="Beach"  />
-        </div>
-        <div className="img-container-abt-me">
-          <img src={MarchingBand} className="fadeInLeft" alt="Beach"  />
-        </div>
-        <div className="img-container-abt-me">
-          <img src={Pfp} className="fadeInLeft" alt="Beach"  />
-        </div>
-        <div className="img-container-abt-me">
-          <img src={Drone} className="fadeInLeft" alt="Beach"  />
+        <div className="scrolling-banner">
+          <div className="banner-track">
+            {bannerImages.map((image, index) => (
+              <div key={index} className="banner-image-container">
+                <img src={image.src} alt={image.alt} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
         
