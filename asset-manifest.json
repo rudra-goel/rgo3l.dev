@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/rgo3l.dev/static/css/main.2392ba34.css",
-    "main.js": "/rgo3l.dev/static/js/main.12dff728.js",
+    "main.css": "/rgo3l.dev/static/css/main.46ceb318.css",
+    "main.js": "/rgo3l.dev/static/js/main.793d48df.js",
     "static/media/team_poster.png": "/rgo3l.dev/static/media/team_poster.5c14f983e94d38d355dc.png",
     "static/media/experiment_inside.png": "/rgo3l.dev/static/media/experiment_inside.b473a2425c22088b1f7e.png",
     "static/media/16_cell_ms.png": "/rgo3l.dev/static/media/16_cell_ms.88890f0b43af7a92f181.png",
     "static/media/all_bots.png": "/rgo3l.dev/static/media/all_bots.ec2ec05c89ff784f62ee.png",
     "static/media/joei_crown.png": "/rgo3l.dev/static/media/joei_crown.d2170746b48fa2cdbfe1.png",
     "static/media/Img3.png": "/rgo3l.dev/static/media/Img3.2792fcf94a0a62f5cc08.png",
+    "static/media/Yawn.JPG": "/rgo3l.dev/static/media/Yawn.e04126ddd9444c7d3674.JPG",
     "static/media/8_cell_ms.png": "/rgo3l.dev/static/media/8_cell_ms.027e9d48fea1807b1046.png",
     "static/media/Product.png": "/rgo3l.dev/static/media/Product.e1bced6715cbcbf9c4f1.png",
     "static/media/Img4.png": "/rgo3l.dev/static/media/Img4.cc29c1d61928c7bae38b.png",
@@ -22,6 +23,7 @@
     "static/media/Drone.jpg": "/rgo3l.dev/static/media/Drone.775eec9cb83447c547e8.jpg",
     "static/media/Beach.jpg": "/rgo3l.dev/static/media/Beach.fc1d4a7a2514887587ae.jpg",
     "static/media/V4_Opener.jpg": "/rgo3l.dev/static/media/V4_Opener.76b4d94fca6cdfd3b87e.jpg",
+    "static/media/CowFeed.jpg": "/rgo3l.dev/static/media/CowFeed.49a4f915f82cfb601e97.jpg",
     "static/media/Img7.png": "/rgo3l.dev/static/media/Img7.82fd9093cfa06e3012ce.png",
     "static/media/Car.jpg": "/rgo3l.dev/static/media/Car.4325e22f3ad9f3428fd4.jpg",
     "static/media/Img4.jpg": "/rgo3l.dev/static/media/Img4.f98aeb5291cd96a337cb.jpg",
@@ -56,8 +58,6 @@
     "static/media/ControlBoard.png": "/rgo3l.dev/static/media/ControlBoard.819d9c1489509324ca4e.png",
     "static/media/Img2.jpg": "/rgo3l.dev/static/media/Img2.daac2bd45e7f019630ec.jpg",
     "static/media/V3_Opener.png": "/rgo3l.dev/static/media/V3_Opener.788367cc8462f181f948.png",
-    "static/media/rgo3l.png": "/rgo3l.dev/static/media/rgo3l.f423cd47ba398056cf8c.png",
-    "static/media/Static.png": "/rgo3l.dev/static/media/Static.6f0ff2722a77fc199649.png",
     "static/media/TopFlow.png": "/rgo3l.dev/static/media/TopFlow.c63914a0e11a5033ba00.png",
     "static/media/compSchematic.png": "/rgo3l.dev/static/media/compSchematic.9d530a3184a2d8eb64f7.png",
     "static/media/regfile.png": "/rgo3l.dev/static/media/regfile.758476d5f5209c80597b.png",
@@ -76,11 +76,11 @@
     "static/media/Top-Right.svg": "/rgo3l.dev/static/media/Top-Right.0e938dbba17b3bba8c6439b7311497de.svg",
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
-    "main.2392ba34.css.map": "/rgo3l.dev/static/css/main.2392ba34.css.map",
-    "main.12dff728.js.map": "/rgo3l.dev/static/js/main.12dff728.js.map"
+    "main.46ceb318.css.map": "/rgo3l.dev/static/css/main.46ceb318.css.map",
+    "main.793d48df.js.map": "/rgo3l.dev/static/js/main.793d48df.js.map"
   },
   "entrypoints": [
-    "static/css/main.2392ba34.css",
-    "static/js/main.12dff728.js"
+    "static/css/main.46ceb318.css",
+    "static/js/main.793d48df.js"
   ]
 }
