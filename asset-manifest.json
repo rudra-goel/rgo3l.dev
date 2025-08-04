@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rgo3l.dev/static/css/main.46ceb318.css",
-    "main.js": "/rgo3l.dev/static/js/main.85ade81f.js",
+    "main.js": "/rgo3l.dev/static/js/main.74e41112.js",
     "static/media/team_poster.png": "/rgo3l.dev/static/media/team_poster.5c14f983e94d38d355dc.png",
     "static/media/experiment_inside.png": "/rgo3l.dev/static/media/experiment_inside.b473a2425c22088b1f7e.png",
     "static/media/16_cell_ms.png": "/rgo3l.dev/static/media/16_cell_ms.88890f0b43af7a92f181.png",
@@ -45,6 +45,7 @@
     "static/media/waveform.png": "/rgo3l.dev/static/media/waveform.fb7ec93fde0b106cd948.png",
     "static/media/cad.png": "/rgo3l.dev/static/media/cad.74502ec8cb6afacbc1fb.png",
     "static/media/sim.png": "/rgo3l.dev/static/media/sim.3676380773bb893b02d3.png",
+    "static/media/Hive.JPG": "/rgo3l.dev/static/media/Hive.ea6c72325bb333115b82.JPG",
     "static/media/layout.png": "/rgo3l.dev/static/media/layout.fa01b0b02c20923e41a8.png",
     "static/media/Schematic-Full.png": "/rgo3l.dev/static/media/Schematic-Full.6ea974f51b004ee51000.png",
     "static/media/V2_Opener.png": "/rgo3l.dev/static/media/V2_Opener.aed209a05eb2f0e49070.png",
@@ -54,6 +55,7 @@
     "static/media/Playing.jpg": "/rgo3l.dev/static/media/Playing.bce6874a133d1c852be3.jpg",
     "static/media/Tuner Schematic.png": "/rgo3l.dev/static/media/Tuner Schematic.7ec75dcf450c1135bbb2.png",
     "static/media/CircuitBoard.png": "/rgo3l.dev/static/media/CircuitBoard.de13dca9717fb0124c74.png",
+    "static/media/Foot.JPG": "/rgo3l.dev/static/media/Foot.48d02c7287fd2dea5071.JPG",
     "static/media/Drone.png": "/rgo3l.dev/static/media/Drone.53723f84b4f049bb5565.png",
     "static/media/Img1.jpg": "/rgo3l.dev/static/media/Img1.6f5820a30ed62591a4f1.jpg",
     "static/media/ControlBoard.png": "/rgo3l.dev/static/media/ControlBoard.819d9c1489509324ca4e.png",
@@ -81,10 +83,10 @@
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.46ceb318.css.map": "/rgo3l.dev/static/css/main.46ceb318.css.map",
-    "main.85ade81f.js.map": "/rgo3l.dev/static/js/main.85ade81f.js.map"
+    "main.74e41112.js.map": "/rgo3l.dev/static/js/main.74e41112.js.map"
   },
   "entrypoints": [
     "static/css/main.46ceb318.css",
-    "static/js/main.85ade81f.js"
+    "static/js/main.74e41112.js"
   ]
 }
