@@ -48,9 +48,10 @@ export default function ProjectPortfolio() {
       id: 'conv-accel',
       title: 'Convolution Accelerator',
       fullTitle: 'Convolutional Hardware Accelerator',
-      description: `I simulated a new hardware architecture for the convolution layer in Convolutional Neural Networks (CNNs). It came from a paper published by Wang et al. in IEEE XPlore. It was really cool to build something thats foundational to computer vision.
-
-It uses parallel FIR filters offering 33% less multipliers for a couple more adders. Check out the github page for the full description`,
+      description: [
+        `I simulated a new hardware architecture for the convolution layer in Convolutional Neural Networks (CNNs). It came from a paper published by Wang et al. in IEEE XPlore. It was really cool to build something thats foundational to computer vision.`,
+        `It uses parallel FIR filters offering 33% less multipliers for a couple more adders. Check out the github page for the full description`
+      ],
       bulletPoints: [],
       skills: ['Computer Vision', 'CNNs'],
       images: [Img38,Img39, Img36, Img37 ],
@@ -63,11 +64,11 @@ It uses parallel FIR filters offering 33% less multipliers for a couple more add
       id: 'clipboard-manager',
       title: 'Clipboard Manager',
       fullTitle: 'Clipboard Manager for macOS',
-      description: `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right. You know what they say 4th times a charm hahah.
-      
-      I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. I have 10x my login experience to any webpage. Life is great. 
-      
-      Check out the github if you want to test it yourself!`,
+      description: [
+        `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right. You know what they say 4th times a charm hahah.`,
+        `I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. I have 10x my login experience to any webpage. Life is great.`,
+        `Check out the github if you want to test it yourself!`
+      ],
       bulletPoints: [],
       skills: ['Swift'],
       externalLinks: [
@@ -79,11 +80,11 @@ It uses parallel FIR filters offering 33% less multipliers for a couple more add
       id: '16bit-computer',
       title: '16-bit Programmable Computer',
       fullTitle: '16-bit Synchronous Programmable Computer',
-      description: `This was a culminating project for my Intro to VLSI & Digital Design course. 
-
-I built a computer that can perfrom basic arithmetic on two 16-bit numbers via a programmable bit to toggle between addition and subtraction using two's complement. 
-
-This was designed in Cadence Virtuoso under the FreePDK 45nm technology node provided by NCSU. I took a modular approach when designing this by first creating 1-bit full adders, then 4-bit ripple carry adders (RCAs), and finally to 16-bit RCAs. Likewise for memory units starting from D-Flip-Flops to Register Files.`,
+      description: [
+        `This was a culminating project for my Intro to VLSI & Digital Design course.`, 
+        `I built a computer that can perfrom basic arithmetic on two 16-bit numbers via a programmable bit to toggle between addition and subtraction using two's complement.`, 
+        `This was designed in Cadence Virtuoso under the FreePDK 45nm technology node provided by NCSU. I took a modular approach when designing this by first creating 1-bit full adders, then 4-bit ripple carry adders (RCAs), and finally to 16-bit RCAs. Likewise for memory units starting from D-Flip-Flops to Register Files.`
+      ],
       bulletPoints: [
         'Optimized interconnect thickeness and layout geometries for design speedup',
         'Performed DFF characterization via setup & hold time analysis',
@@ -98,11 +99,11 @@ This was designed in Cadence Virtuoso under the FreePDK 45nm technology node pro
       id: 'alert-system',
       title: 'A Live Alert System',
       fullTitle: 'A Live Alert System',
-      description: `I work as a TA at the School of ECE's Senior Design Labs, but our parts shop has a weird floorplan. All the TA's sit behind a wall that separates them from the main foyer where people enter.
-
-Sometimes, students will come in needing help, but will leave since they don't see anyone in their immediate vicinity. I decided to make a camera alert system that would notify us (TAs) when someone enters the shop.
-
-UPDATE: This had to be taken down because of GT's privacy policy for camera's within the lab. It has been replaced with a Passive Infrared Sensor (PIR) that detects motion.`,
+      description: [
+        `I work as a TA at the School of ECE's Senior Design Labs, but our parts shop has a weird floorplan. All the TA's sit behind a wall that separates them from the main foyer where people enter.`,
+        `Sometimes, students will come in needing help, but will leave since they don't see anyone in their immediate vicinity. I decided to make a camera alert system that would notify us (TAs) when someone enters the shop.`,
+        `UPDATE: This had to be taken down because of GT's privacy policy for camera's within the lab. It has been replaced with a Passive Infrared Sensor (PIR) that detects motion.`
+      ],
       bulletPoints: [
         'Utilize Python\'s OpenCV Library for real time image processing and object detection',
         'Embedded system developed with Raspberry Pi OS',
@@ -115,12 +116,10 @@ UPDATE: This had to be taken down because of GT's privacy policy for camera's wi
       id: 'discovery-project',
       title: 'ECE 1100 Discovery Project',
       fullTitle: '1100 Discovery Project',
-      description: `After living with my roommate for a semester and being locked out way too many times, I decided to make a an automatic door opener. This project was directly 
-inspired by Varun Patel from Blue Hand Coding. 
-I added a small twist to his design by using the Adafruit Biometric Sensor to let only me and my roommate in. 
-
-This is still a major work in progress; I am currently on my 3rd full iteration. My first two failed because of weak motors *\_/* 
-But I have seen success with my electronics. My biometric sensor`,
+      description: [
+        `After living with my roommate for a semester and being locked out way too many times, I decided to make a an automatic door opener. This project was directly inspired by Varun Patel from Blue Hand Coding. `,
+        `I added a small twist to his design by using the Adafruit Biometric Sensor to let only me and my roommate in. This is still a major work in progress; I am currently on my 3rd full iteration. My first two failed because of weak motors *\_/* But I have seen success with my electronics. My biometric sensor`,
+      ],
       bulletPoints: [
         'Expose myself to a campus makerspace, The Hive',
         'Various precision-driven stepper motors',
@@ -137,18 +136,19 @@ But I have seen success with my electronics. My biometric sensor`,
     {
       id: 'instrument-tuner',
       title: 'Rudimentary Instrument Tuner',
-      fullTitle: 'A Real, Simple Tuner',
-      description: `This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. 
-I've been doing it for so long, but I never really understood what's going on behind the scenes. So, I wanted to learn more. 
-This is an extremely simple tuner that uses the Elegoo Uno R3 equipped with the Atmega 328P microprocessor. 
-A RGB LED varying colors between blue, green, and red indicates to the user the how flat or sharp their instrument is.`,
-      bulletPoints: [
-        'Designed embedded system from scratch with emphasis in simplicity',
-        'Introduction to Fourier Transforms, a foundation in Digital Signal Processing',
-        'Designed and manufactured housing unit',
-        'November 2023 - December 2023'
+      fullTitle: 'A Simple Tuner',
+      description: [
+        `This is a fun little project I picked up on the side. I've been playing trombone since 4th grade and before every practice, I needed to tune. `,
+        `I've been doing it for so long, but I never really understood what's going on behind the scenes. So, I wanted to learn more. `,
+        `This is an extremely simple tuner that uses the Elegoo Uno R3 equipped with the Atmega 328P microprocessor. `,
+        `A RGB LED varying colors between blue, green, and red indicates to the user the how flat or sharp their instrument is.`
       ],
-      skills: ['Embedded Systems', 'CircuitPython', 'Digital Signal Processing (DSP)'],
+      bulletPoints: [
+        'Designed embedded system with emphasis in simplicity',
+        'Introduction to Fourier Transforms, foundation in DSP',
+        'Laser cut some sick wood',
+      ],
+      skills: ['Embedded Systems', 'CircuitPython', 'Digital Signal Processing'],
       images: [Img110, Img11, Img111],
       externalLinks: [
         { text: 'Checkout My Research and Project Progress', url: 'https://github.com/rudra-goel/Tuner' },
@@ -159,9 +159,11 @@ A RGB LED varying colors between blue, green, and red indicates to the user the 
       id: 'senior-capstone',
       title: 'Senior Capstone',
       fullTitle: 'Ravana Custom Drone Technologies',
-      description: `For my 12th grade Computer Science Capstone project, I decided to make a drone from the ground-up completely, with a focus on designing the the flight controller from scratch. 
-Throughout the year, I dug my hands deep in datasheets, physics principles and the fundamentals of embedded system design. 
-Although I was not successful in getting the drone to fly, I was able to control the motors individually based on gyroscopic data and outline the codebase for the control algorithm.`,
+      description: [
+        `For my 12th grade Computer Science Capstone project, I decided to make a drone from the ground-up completely, with a focus on designing the the flight controller from scratch. `,
+        `Throughout the year, I dug my hands deep in datasheets, physics principles and the fundamentals of embedded system design. `,
+        `Although I was not successful in getting the drone to fly, I was able to control the motors individually based on gyroscopic data and outline the codebase for the control algorithm.`,
+      ],
       bulletPoints: [
         'First experience at a Capstone project following the engineering design process closely',
         'Design an efficient aero-mechanical system for quadcopter drones',
@@ -179,12 +181,14 @@ Although I was not successful in getting the drone to fly, I was able to control
       id: 'gear-car',
       title: 'Gear Car',
       fullTitle: 'Gear Car',
-      description: `This is a culminating final project for my 11th grade engineering class. We were tasked with designing a gear car from complete scratch. 
-Our car must travel up a ramp without slipping and deposit a ping pong ball in a small can. 
-Powered on ONE 9V battery, we used a BDC motor and a unique series of gears to drive the car forward.`,
+      description: [
+        `Look at that gear car. Boom. This was a semester project for my CAD class in high school`,
+        `The car must travel up a ramp without slipping and put a ping pong ball in a small tin can. `,
+        `Powered on ONE 9V battery, we used a BDC motor and a unique series of gears to drive the car forward.`
+      ],
       bulletPoints: [
         'Applied Engineering Design Process religiously',
-        'Modeled stress and performed analysis on rotating gears to optimize gear tooth design',
+        'Gear design (a baby powertrain)',
         'Laser Cut body',
         'March 2022 - May 2022'
       ],
@@ -238,54 +242,15 @@ Powered on ONE 9V battery, we used a BDC motor and a unique series of gears to d
               </div>
 
               <div className="project-description">
-                {project.description.split('\n\n').map((paragraph, index) => (
-                  <React.Fragment key={index}>
-                    {paragraph.includes('Blue Hand Coding') ? (
-                      <span>
-                        {paragraph.split('Blue Hand Coding')[0]}
-                        <a href="https://www.bluehandcoding.com/" target="_blank" rel="noopener noreferrer">
-                          <span className="bold-reg-text">Blue Hand Coding</span>
-                        </a>
-                        {paragraph.split('Blue Hand Coding')[1]}
-                      </span>
-                    ) : paragraph.includes('The Hive') ? (
-                      <span>
-                        {paragraph.split('The Hive')[0]}
-                        <a href="https://hive.ece.gatech.edu/" target="_blank" rel="noopener noreferrer">
-                          <span className="bold-reg-text">The Hive</span>
-                        </a>
-                        {paragraph.split('The Hive')[1]}
-                      </span>
-                    ) : paragraph.includes('camera alert system') ? (
-                      <span>
-                        {paragraph.split('camera alert system')[0]}
-                        <span className='bold-reg-text'>camera alert system</span>
-                        {paragraph.split('camera alert system')[1]}
-                      </span>
-                    ) : paragraph.includes('Elegoo Uno R3') ? (
-                      <span>
-                        {paragraph.split('Elegoo Uno R3')[0]}
-                        <span className="bold-reg-text">Elegoo Uno R3</span>
-                        {paragraph.split('Elegoo Uno R3')[1].split('Atmega 328P')[0]}
-                        <span className="bold-reg-text">Atmega 328P</span>
-                        {paragraph.split('Atmega 328P')[1]}
-                      </span>
-                    ) : paragraph.includes('Adafruit Biometric Sensor') ? (
-                      <span>
-                        {paragraph.split('Adafruit Biometric Sensor')[0]}
-                        <span className="bold-reg-text">Adafruit Biometric Sensor</span>
-                        {paragraph.split('Adafruit Biometric Sensor')[1]}
-                      </span>
-                    ) : (
-                      paragraph
-                    )}
-                    {index < project.description.split('\n\n').length && (
-                      <>
-                        <br /><br /><br />
-                      </>
-                    )}
-                  </React.Fragment>
-                ))}
+                {project.description.map((desc, i) => {
+                    return (
+                      <div classname="description">
+                        {desc}
+                        <br></br>
+                        <br></br>
+                      </div>
+                    )
+                })}
 
                 <ul className="project-description-list">
                   {project.bulletPoints.map((point, index) => (
