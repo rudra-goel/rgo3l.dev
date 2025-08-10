@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rgo3l.dev/static/css/main.27c759cb.css",
-    "main.js": "/rgo3l.dev/static/js/main.7efdf288.js",
+    "main.js": "/rgo3l.dev/static/js/main.147e79f1.js",
     "static/media/Demo.gif": "/rgo3l.dev/static/media/Demo.c22610bd4e140e57a6d8.gif",
     "static/media/team_poster.png": "/rgo3l.dev/static/media/team_poster.5c14f983e94d38d355dc.png",
     "static/media/experiment_inside.png": "/rgo3l.dev/static/media/experiment_inside.b473a2425c22088b1f7e.png",
@@ -84,10 +84,10 @@
     "static/media/Up Arrow.svg": "/rgo3l.dev/static/media/Up Arrow.ae35a597721252f496469a9b764f57c1.svg",
     "static/media/Right Arrow.svg": "/rgo3l.dev/static/media/Right Arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.27c759cb.css.map": "/rgo3l.dev/static/css/main.27c759cb.css.map",
-    "main.7efdf288.js.map": "/rgo3l.dev/static/js/main.7efdf288.js.map"
+    "main.147e79f1.js.map": "/rgo3l.dev/static/js/main.147e79f1.js.map"
   },
   "entrypoints": [
     "static/css/main.27c759cb.css",
-    "static/js/main.7efdf288.js"
+    "static/js/main.147e79f1.js"
   ]
 }
