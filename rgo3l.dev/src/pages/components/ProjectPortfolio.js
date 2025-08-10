@@ -39,7 +39,7 @@ import Img37 from "../Images/ConvNetSim/CNN_Model.jpg"
 import Img38 from "../Images/ConvNetSim/Diagram.jpg"
 import Img39 from "../Images/ConvNetSim/Circle.gif"
 
-
+import Img40 from "../Images/clipboardManager/Demo.gif"
 
 export default function ProjectPortfolio() {
   // Define all projects data
@@ -65,16 +65,17 @@ export default function ProjectPortfolio() {
       title: 'Clipboard Manager',
       fullTitle: 'Clipboard Manager for macOS',
       description: [
-        `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right. You know what they say 4th times a charm hahah.`,
-        `I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. I have 10x my login experience to any webpage. Life is great.`,
-        `Check out the github if you want to test it yourself!`
+        `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right.`,
+        `I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. `,
+        `I have 10x my login experience to any webpage. Thats almost an hour over my entire life saved!!!! Life is great.`,
+        `Check out the github if you want to test it yourself. Reach out if you notice any bugs!`
       ],
       bulletPoints: [],
       skills: ['Swift'],
       externalLinks: [
         {text: "Github", url: "https://github.com/rudra-goel/ClipboardManager"}
       ],
-      images: []
+      images: [Img40]
     },
     {
       id: '16bit-computer',
