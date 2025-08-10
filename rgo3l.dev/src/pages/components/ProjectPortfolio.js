@@ -60,23 +60,7 @@ export default function ProjectPortfolio() {
       ],
       isProject: true
     },
-    {
-      id: 'clipboard-manager',
-      title: 'Clipboard Manager',
-      fullTitle: 'Clipboard Manager for macOS',
-      description: [
-        `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right.`,
-        `I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. `,
-        `I have 10x my login experience to any webpage. Thats almost an hour over my entire life saved!!!! Life is great.`,
-        `Check out the github if you want to test it yourself. Reach out if you notice any bugs!`
-      ],
-      bulletPoints: [],
-      skills: ['Swift'],
-      externalLinks: [
-        {text: "Github", url: "https://github.com/rudra-goel/ClipboardManager"}
-      ],
-      images: [Img40]
-    },
+    
     {
       id: '16bit-computer',
       title: '16-bit Programmable Computer',
@@ -112,6 +96,23 @@ export default function ProjectPortfolio() {
       ],
       skills: ['Embedded Systems'],
       images: [Img29, Img30, Img31, Img28, Img27]
+    },
+    {
+      id: 'clipboard-manager',
+      title: 'Clipboard Manager',
+      fullTitle: 'Clipboard Manager for macOS',
+      description: [
+        `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right.`,
+        `I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. `,
+        `I have 10x my login experience to any webpage. Thats almost an hour over my entire life saved!!!! Life is great.`,
+        `Check out the github if you want to test it yourself. Reach out if you notice any bugs!`
+      ],
+      bulletPoints: [],
+      skills: ['Swift'],
+      externalLinks: [
+        {text: "Github", url: "https://github.com/rudra-goel/ClipboardManager"}
+      ],
+      images: [Img40]
     },
     {
       id: 'discovery-project',
