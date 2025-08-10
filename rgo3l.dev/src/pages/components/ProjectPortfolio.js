@@ -34,19 +34,47 @@ import Img33 from "../Images/16bitComp/regfile.png";
 import Img34 from "../Images/16bitComp/waveform.png";
 import Img35 from "../Images/16bitComp/layout.png";
 
+import Img36 from "../Images/ConvNetSim/Arch.jpg"
+import Img37 from "../Images/ConvNetSim/CNN_Model.jpg"
+import Img38 from "../Images/ConvNetSim/Diagram.jpg"
+import Img39 from "../Images/ConvNetSim/Circle.gif"
+
+
+
 export default function ProjectPortfolio() {
   // Define all projects data
   const projects = [
-    // {
-    //   id: 'conv-accel',
-    //   title: 'Convolution Accelerator',
-    //   fullTitle: 'Convolutional Hardware Accelerator',
-    //   description: "Brij",
-    //   bulletPoints: [],
-    //   skills: [],
-    //   images: [],
+    {
+      id: 'conv-accel',
+      title: 'Convolution Accelerator',
+      fullTitle: 'Convolutional Hardware Accelerator',
+      description: `I simulated a new hardware architecture for the convolution layer in Convolutional Neural Networks (CNNs). It came from a paper published by Wang et al. in IEEE XPlore. It was really cool to build something thats foundational to computer vision.
+
+It uses parallel FIR filters offering 33% less multipliers for a couple more adders. Check out the github page for the full description`,
+      bulletPoints: [],
+      skills: ['Computer Vision', 'CNNs'],
+      images: [Img38,Img39, Img36, Img37 ],
+      externalLinks: [
+        {text: "Github", url: "https://github.com/rudra-goel/Convolutional_Accelerator"}
+      ],
+      isProject: true
+    },
+    {
+      id: 'clipboard-manager',
+      title: 'Clipboard Manager',
+      fullTitle: 'Clipboard Manager for macOS',
+      description: `I suck at typing (like a lot). I have to type in my username & password at least 3 times before I get it right. You know what they say 4th times a charm hahah.
       
-    // },
+      I built a macOS menu bar app that saves records of my clipboard. Any text, passwords, links, or images can be saved and copied in a moments notice. I have 10x my login experience to any webpage. Life is great. 
+      
+      Check out the github if you want to test it yourself!`,
+      bulletPoints: [],
+      skills: ['Swift'],
+      externalLinks: [
+        {text: "Github", url: "https://github.com/rudra-goel/ClipboardManager"}
+      ],
+      images: []
+    },
     {
       id: '16bit-computer',
       title: '16-bit Programmable Computer',
@@ -64,8 +92,7 @@ This was designed in Cadence Virtuoso under the FreePDK 45nm technology node pro
         'Physical Design (PD) iteration process to ensure DRC and LVS run clean'
       ],
       skills: ['Cadence Virtuoso', 'SKILL Scripting', 'Python Layout Automation'],
-      images: [Img32, Img33, Img34, Img35],
-      isProject: true
+      images: [Img32, Img33, Img34, Img35]
     },
     {
       id: 'alert-system',
@@ -252,7 +279,7 @@ Powered on ONE 9V battery, we used a BDC motor and a unique series of gears to d
                     ) : (
                       paragraph
                     )}
-                    {index < project.description.split('\n\n').length - 1 && (
+                    {index < project.description.split('\n\n').length && (
                       <>
                         <br /><br /><br />
                       </>

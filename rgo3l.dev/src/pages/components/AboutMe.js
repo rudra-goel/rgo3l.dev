@@ -11,6 +11,8 @@ import Yawn from "../Images/Yawn.JPG"
 import CowFeed from "../Images/CowFeed.jpg"
 import Playing from "../Images/Playing.jpg"
 import MarchingBand from "../Images/MarchingBand.PNG"
+import Hive from "../Images/Hive.JPG"
+import Foot from "../Images/Foot.JPG"
 
 //svg image
 import DownArrow from "../Images/Down Arrow.svg"
@@ -23,14 +25,18 @@ export default function AboutMe() {
     { src: Pfp, alt: "Profile Picture" },
     { src: Drone, alt: "Drone" },
     { src: Yawn, alt: "Yawn" },
-    { src: CowFeed, alt: "CowFeed" },
+    // { src: CowFeed, alt: "CowFeed" },
+    { src: Foot, alt: "Foot" },
+    { src: Hive, alt: "Hive" },
     
     // Duplicate the images for seamless loop
     { src: MarchingBand, alt: "Marching Band" },
     { src: Pfp, alt: "Profile Picture" },
     { src: Drone, alt: "Drone" },
     { src: Yawn, alt: "Yawn" },
-    { src: CowFeed, alt: "CowFeed" },
+    // { src: CowFeed, alt: "CowFeed" },
+    { src: Foot, alt: "Foot" },
+    { src: Hive, alt: "Hive" },
   ];
 
   return (
